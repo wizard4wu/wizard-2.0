@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a8d5fa4c-da11-4a92-8f6e-931b9a44ec3f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/many/implement/ManyImplementsStarter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommonSolution/src/test/java/com/dev/wizard/ManyImplementsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/$PROJECT_FILE$" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_13_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_13_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_13_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_13_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_13_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_13_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_6_1_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_73_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_73_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_73_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_73_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_73_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_tcnative_classes_2_0_46_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_73_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_4_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_11_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_17_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_17_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_56.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_56.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_jasper_9_0_56.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_56.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_9_0_56.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jdt_ecj_3_18_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_33.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_33.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_6_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_6_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_6_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_6_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_6_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_6_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_6_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_6_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_6_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_3_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_3_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_3_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_5_3_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_3_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_3_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_3_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_3_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_3_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_29.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonSolution/CommonSolution.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonSolution/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CommonSolution/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/many/implement/ManyImplementsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/many/implement/impl/Chinese.java" beforeDir="false" afterPath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/many/implement/impl/Chinese.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/many/implement/impl/English.java" beforeDir="false" afterPath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/many/implement/impl/English.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/many/implement/impl/Japanese.java" beforeDir="false" afterPath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/many/implement/impl/Japanese.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonSolution/target/classes/com/dev/wizard/CommonSolutionStarter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonSolution/target/classes/com/dev/wizard/solution/ifelse/methodFactory/ProduceRoleFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonSolution/target/classes/com/dev/wizard/solution/ifelse/methodenum/RoleEnum$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonSolution/target/classes/com/dev/wizard/solution/ifelse/methodenum/RoleEnum$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonSolution/target/classes/com/dev/wizard/solution/ifelse/methodenum/RoleEnum$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonSolution/target/classes/com/dev/wizard/solution/ifelse/methodenum/RoleEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonSolution/target/classes/com/dev/wizard/solution/ifelse/methodenum/RoleOperation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomRedis/target/classes/com/dev/wizard/CustomRedisStarter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomRedis/target/classes/com/dev/wizard/redis/RedisController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomRedis/target/classes/com/dev/wizard/redis/cache/AutoCache.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomRedis/target/classes/com/dev/wizard/redis/cache/MyRedisCache.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomRedis/target/classes/com/dev/wizard/redis/cache/impl/ValueCache.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomRedis/target/classes/com/dev/wizard/redis/config/LoadCache.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomRedis/target/classes/com/dev/wizard/redis/config/MyRedisConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomRedis/target/classes/com/dev/wizard/redis/demo/CustomRedisDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomRedis/target/classes/com/dev/wizard/redis/demo/MyRedisCacheClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomRedis/target/classes/com/dev/wizard/redis/domain/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomRedis/target/classes/config/application-local.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomSpringSecurity/CustomSpringSecurity.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CustomSpringSecurity/CustomSpringSecurity.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomSpringSecurity/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomSpringSecurity/target/classes/com/wizard/security/SpringSecurityApplicationStarter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomSpringSecurity/target/classes/com/wizard/security/config/SecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomSpringSecurity/target/classes/com/wizard/security/custom/annotation/CurrentUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomSpringSecurity/target/classes/com/wizard/security/custom/auth/AuthenticationProviderBySessionId.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomSpringSecurity/target/classes/com/wizard/security/custom/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomSpringSecurity/target/classes/com/wizard/security/custom/domain/LoginUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomSpringSecurity/target/classes/com/wizard/security/custom/token/SessionAuthToken.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomSpringSecurity/target/classes/com/wizard/security/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructureAndAlgorithm/target/classes/com/wizard/data/leetcode/MergeArray_88.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructureAndAlgorithm/target/classes/com/wizard/data/structure/sort/BubbleSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructureAndAlgorithm/target/classes/com/wizard/data/structure/sort/SelectSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructureAndAlgorithm/target/classes/com/wizard/data/structure/sort/SortClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-embed-tomcat/target/classes/com/wizard/spring/AppMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-embed-tomcat/target/classes/com/wizard/spring/embed/tomcat/MyWebInit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-embed-tomcat/target/classes/com/wizard/spring/embed/tomcat/config/AppConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-embed-tomcat/target/classes/com/wizard/spring/embed/tomcat/init.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wizard-2.0.iml" beforeDir="false" afterPath="$PROJECT_DIR$/wizard-2.0.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="C:\Users\wizard\.m2\repository" />
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="28NEbyZNJvPqEMx1mZRRKTSSTqT" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.3045977" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.ignored.files" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.dev.wizard" />
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.dev.wizard.many.implement" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ManyImplementsTest">
+    <configuration name="IfElseSolutionStarter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dev.wizard.solution.ifelse.IfElseSolutionStarter" />
+      <module name="CommonSolution" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dev.wizard.solution.ifelse.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManyImplementsStarter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="BUNDLED" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.dev.wizard.many.implement.ManyImplementsStarter" />
+      <module name="CommonSolution" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dev.wizard.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManyImplementsStarter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dev.wizard.many.implement.ManyImplementsStarter" />
+      <module name="CommonSolution" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManyImplementsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CommonSolution" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dev.wizard.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dev.wizard" />
+      <option name="MAIN_CLASS_NAME" value="com.dev.wizard.ManyImplementsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManyImplementsTest.testServiceList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CommonSolution" />
+      <option name="PACKAGE_NAME" value="com.dev.wizard" />
+      <option name="MAIN_CLASS_NAME" value="com.dev.wizard.ManyImplementsTest" />
+      <option name="METHOD_NAME" value="testServiceList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.IfElseSolutionStarter" />
+      <item itemvalue="Application.ManyImplementsStarter" />
+      <item itemvalue="Application.ManyImplementsStarter (1)" />
+      <item itemvalue="JUnit.ManyImplementsTest.testServiceList" />
+      <item itemvalue="JUnit.ManyImplementsTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ManyImplementsTest" />
+        <item itemvalue="JUnit.ManyImplementsTest.testServiceList" />
+        <item itemvalue="Application.ManyImplementsStarter" />
+        <item itemvalue="Application.ManyImplementsStarter (1)" />
+        <item itemvalue="Application.IfElseSolutionStarter" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a8d5fa4c-da11-4a92-8f6e-931b9a44ec3f" name="Changes" comment="" />
+      <created>1651048725596</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1651048725596</updated>
+    </task>
+    <servers />
+  </component>
+</project>
