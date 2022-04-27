@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="CustomSpringSecurity" />
+        <module name="CommonSolution" />
+        <module name="CustomRedis" />
+        <module name="DataStructureAndAlgorithm" />
+        <module name="spring-embed-tomcat" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="CommonSolution" target="8" />
+      <module name="CustomRedis" target="8" />
+      <module name="CustomSpringSecurity" target="8" />
+      <module name="DataStructureAndAlgorithm" target="8" />
+      <module name="spring-embed-tomcat" target="8" />
+      <module name="wizard-2.0" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="CommonSolution" options="-parameters" />
+      <module name="CustomRedis" options="-parameters" />
+      <module name="CustomSpringSecurity" options="-parameters" />
+      <module name="DataStructureAndAlgorithm" options="-parameters" />
+      <module name="spring-embed-tomcat" options="-parameters" />
+    </option>
+  </component>
+</project>
