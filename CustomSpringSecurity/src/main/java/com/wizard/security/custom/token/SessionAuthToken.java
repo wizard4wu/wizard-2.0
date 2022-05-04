@@ -5,20 +5,20 @@ import org.springframework.security.web.authentication.preauth.PreAuthenticatedA
 
 public class SessionAuthToken extends PreAuthenticatedAuthenticationToken {
 
-    private String sessionId;
+    private String headerToken;
 
     private LoginUser loginUser;
 
     public SessionAuthToken(String sessionId, LoginUser loginUser) {
         super(sessionId, loginUser);
-        this.sessionId = sessionId;
+        this.headerToken = sessionId;
         this.loginUser = loginUser;
         super.setAuthenticated(true);
     }
 
     @Override
     public Object getCredentials() {
-        return sessionId;
+        return headerToken;
     }
 
     @Override
