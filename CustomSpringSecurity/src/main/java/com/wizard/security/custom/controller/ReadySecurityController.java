@@ -1,8 +1,11 @@
 package com.wizard.security.custom.controller;
 
+import com.wizard.security.custom.annotation.CurrentUser;
+import com.wizard.security.custom.domain.LoginUser;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
@@ -19,7 +22,8 @@ public class ReadySecurityController {
     }
 
     @PostMapping("/ready/security/post")
-    public String testPost(){
+    public String testPost(@CurrentUser LoginUser loginUser){
+        System.out.println(loginUser);
         return "Test Post";
     }
 

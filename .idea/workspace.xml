@@ -5,46 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8d5fa4c-da11-4a92-8f6e-931b9a44ec3f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_auth0_java_jwt_3_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_8_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_3_6_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_3_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/check/duplicate/DuplicatedElementValidation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/check/duplicate/NotDuplicatedElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/check/duplicate/domain/ValiationDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CustomSpringSecurity/src/main/java/com/wizard/security/custom/controller/ReadySecurityController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CustomSpringSecurity/src/main/java/com/wizard/security/custom/filter/CustomTokenFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CustomSpringSecurity/src/main/java/com/wizard/security/custom/filter/JWTTokenFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CustomSpringSecurity/src/main/java/com/wizard/security/custom/filter/PrintLogFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CustomSpringSecurity/src/main/java/com/wizard/security/custom/token/JWTAuthToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CustomSpringSecurity/src/main/java/com/wizard/security/custom/auth/JWTAuthenticationProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CustomSpringSecurity/src/main/java/com/wizard/security/custom/util/JWTUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_csv_1_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_3_2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CommonSolution/CommonSolution.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CommonSolution/CommonSolution.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CommonSolution/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CommonSolution/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonSolution/target/classes/com/dev/wizard/many/implement/ManyImplementsStarter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonSolution/target/classes/com/dev/wizard/many/implement/impl/Chinese.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonSolution/target/classes/com/dev/wizard/many/implement/impl/English.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonSolution/target/classes/com/dev/wizard/many/implement/impl/Japanese.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonSolution/target/classes/com/dev/wizard/many/implement/service/People.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonSolution/target/classes/com/dev/wizard/solution/ifelse/IfElseSolutionStarter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonSolution/target/classes/com/dev/wizard/solution/ifelse/methodFactory/ProduceRoleFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonSolution/target/classes/com/dev/wizard/solution/ifelse/methodenum/RoleEnum$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonSolution/target/classes/com/dev/wizard/solution/ifelse/methodenum/RoleEnum$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonSolution/target/classes/com/dev/wizard/solution/ifelse/methodenum/RoleEnum$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonSolution/target/classes/com/dev/wizard/solution/ifelse/methodenum/RoleEnum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonSolution/target/classes/com/dev/wizard/solution/ifelse/methodenum/RoleOperation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonSolution/target/test-classes/com/dev/wizard/ManyImplementsTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CustomSpringSecurity/CustomSpringSecurity.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CustomSpringSecurity/CustomSpringSecurity.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CustomSpringSecurity/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CustomSpringSecurity/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CustomSpringSecurity/src/main/java/com/wizard/security/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/CustomSpringSecurity/src/main/java/com/wizard/security/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CustomSpringSecurity/src/main/java/com/wizard/security/custom/auth/AuthenticationProviderBySessionId.java" beforeDir="false" afterPath="$PROJECT_DIR$/CustomSpringSecurity/src/main/java/com/wizard/security/custom/auth/AuthenticationProviderBySessionId.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CustomSpringSecurity/src/main/java/com/wizard/security/custom/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/CustomSpringSecurity/src/main/java/com/wizard/security/custom/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CustomSpringSecurity/src/main/java/com/wizard/security/custom/token/SessionAuthToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/CustomSpringSecurity/src/main/java/com/wizard/security/custom/token/SessionAuthToken.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CustomSpringSecurity/src/main/java/com/wizard/security/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/CustomSpringSecurity/src/main/java/com/wizard/security/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomSpringSecurity/src/main/java/com/wizard/security/custom/annotation/CurrentUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/CustomSpringSecurity/src/main/java/com/wizard/security/custom/annotation/CurrentUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomSpringSecurity/src/main/java/com/wizard/security/custom/controller/ReadySecurityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/CustomSpringSecurity/src/main/java/com/wizard/security/custom/controller/ReadySecurityController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomSpringSecurity/src/main/java/com/wizard/security/custom/filter/CustomTokenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/CustomSpringSecurity/src/main/java/com/wizard/security/custom/filter/CustomTokenFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomSpringSecurity/src/main/java/com/wizard/security/custom/token/JWTAuthToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/CustomSpringSecurity/src/main/java/com/wizard/security/custom/token/JWTAuthToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomSpringSecurity/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/CustomSpringSecurity/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomSpringSecurity/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/CustomSpringSecurity/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomSpringSecurity/target/classes/com/wizard/security/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/CustomSpringSecurity/target/classes/com/wizard/security/config/SecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomSpringSecurity/target/classes/com/wizard/security/custom/annotation/CurrentUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/CustomSpringSecurity/target/classes/com/wizard/security/custom/annotation/CurrentUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomSpringSecurity/target/classes/com/wizard/security/custom/controller/ReadySecurityController.class" beforeDir="false" afterPath="$PROJECT_DIR$/CustomSpringSecurity/target/classes/com/wizard/security/custom/controller/ReadySecurityController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomSpringSecurity/target/classes/com/wizard/security/custom/filter/CustomTokenFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/CustomSpringSecurity/target/classes/com/wizard/security/custom/filter/CustomTokenFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomSpringSecurity/target/classes/com/wizard/security/custom/token/JWTAuthToken.class" beforeDir="false" afterPath="$PROJECT_DIR$/CustomSpringSecurity/target/classes/com/wizard/security/custom/token/JWTAuthToken.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,13 +88,26 @@
       <recent name="com.dev.wizard.many.implement" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CustomTokenFilter">
+  <component name="RunManager" selected="Application.SpringSecurityApplicationStarter">
     <configuration name="CustomTokenFilter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.wizard.security.custom.filter.CustomTokenFilter" />
       <module name="CustomSpringSecurity" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.wizard.security.custom.filter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JWTUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wizard.security.custom.util.JWTUtil" />
+      <module name="CustomSpringSecurity" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wizard.security.custom.util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -181,16 +174,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ManyImplementsTest.testServiceList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CommonSolution" />
-      <option name="PACKAGE_NAME" value="com.dev.wizard" />
-      <option name="MAIN_CLASS_NAME" value="com.dev.wizard.ManyImplementsTest" />
-      <option name="METHOD_NAME" value="testServiceList" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <method v="2">
         <option name="Make" enabled="true" />
@@ -205,17 +188,17 @@
     <list>
       <item itemvalue="Application.ManyImplementsStarter" />
       <item itemvalue="Application.SpringSecurityApplicationStarter" />
-      <item itemvalue="JUnit.ManyImplementsTest.testServiceList" />
-      <item itemvalue="JUnit.ManyImplementsTest" />
       <item itemvalue="Application.CustomTokenFilter" />
+      <item itemvalue="Application.JWTUtil" />
+      <item itemvalue="JUnit.ManyImplementsTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CustomTokenFilter" />
         <item itemvalue="Application.SpringSecurityApplicationStarter" />
+        <item itemvalue="Application.JWTUtil" />
+        <item itemvalue="Application.CustomTokenFilter" />
         <item itemvalue="Application.ManyImplementsStarter" />
         <item itemvalue="JUnit.ManyImplementsTest" />
-        <item itemvalue="JUnit.ManyImplementsTest.testServiceList" />
       </list>
     </recent_temporary>
   </component>
@@ -248,11 +231,6 @@
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.6.1/spring-security-web-5.6.1.jar!/org/springframework/security/web/authentication/UsernamePasswordAuthenticationFilter.class</url>
           <line>35</line>
           <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.6.1/spring-security-web-5.6.1.jar!/org/springframework/security/web/authentication/AbstractAuthenticationProcessingFilter.class</url>
-          <line>81</line>
-          <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.6.1/spring-security-core-5.6.1-sources.jar!/org/springframework/security/core/userdetails/User.java</url>
@@ -310,19 +288,9 @@
           <option name="timeStamp" value="68" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.6.1/spring-security-core-5.6.1-sources.jar!/org/springframework/security/access/intercept/AbstractSecurityInterceptor.java</url>
-          <line>207</line>
-          <option name="timeStamp" value="70" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.6.1/spring-security-web-5.6.1-sources.jar!/org/springframework/security/web/authentication/www/BasicAuthenticationFilter.java</url>
           <line>145</line>
           <option name="timeStamp" value="83" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.6.1/spring-security-core-5.6.1-sources.jar!/org/springframework/security/authentication/ProviderManager.java</url>
-          <line>182</line>
-          <option name="timeStamp" value="84" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/CustomSpringSecurity/src/main/java/com/wizard/security/custom/auth/AuthenticationProviderBySessionId.java</url>
@@ -350,19 +318,49 @@
           <option name="timeStamp" value="92" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.6.1/spring-security-web-5.6.1-sources.jar!/org/springframework/security/web/FilterChainProxy.java</url>
-          <line>335</line>
-          <option name="timeStamp" value="94" />
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.6.1/spring-security-web-5.6.1-sources.jar!/org/springframework/security/web/authentication/AbstractAuthenticationProcessingFilter.java</url>
+          <line>313</line>
+          <option name="timeStamp" value="109" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.6.1/spring-security-web-5.6.1-sources.jar!/org/springframework/security/web/FilterChainProxy.java</url>
-          <line>320</line>
-          <option name="timeStamp" value="96" />
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.6.1/spring-security-web-5.6.1-sources.jar!/org/springframework/security/web/authentication/AbstractAuthenticationProcessingFilter.java</url>
+          <line>339</line>
+          <option name="timeStamp" value="110" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.6.1/spring-security-web-5.6.1-sources.jar!/org/springframework/security/web/authentication/AbstractAuthenticationProcessingFilter.java</url>
           <line>217</line>
-          <option name="timeStamp" value="99" />
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/CustomSpringSecurity/src/main/java/com/wizard/security/custom/filter/CustomTokenFilter.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/CustomSpringSecurity/src/main/java/com/wizard/security/custom/filter/JWTTokenFilter.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.6.1/spring-security-web-5.6.1-sources.jar!/org/springframework/security/web/authentication/SavedRequestAwareAuthenticationSuccessHandler.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.6.1/spring-security-web-5.6.1-sources.jar!/org/springframework/security/web/authentication/SimpleUrlAuthenticationSuccessHandler.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.6.1/spring-security-web-5.6.1-sources.jar!/org/springframework/security/web/authentication/AbstractAuthenticationTargetUrlRequestHandler.java</url>
+          <line>87</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/CustomSpringSecurity/src/main/java/com/wizard/security/custom/controller/ReadySecurityController.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="122" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

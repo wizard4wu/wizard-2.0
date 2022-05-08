@@ -1,4 +1,6 @@
 spring:
+  main:
+    allow-circular-references: true
   security:
     user:
       name: wizard
