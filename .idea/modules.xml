@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/CustomRedis/CustomRedis.iml" filepath="$PROJECT_DIR$/CustomRedis/CustomRedis.iml" />
       <module fileurl="file://$PROJECT_DIR$/CustomSpringSecurity/CustomSpringSecurity.iml" filepath="$PROJECT_DIR$/CustomSpringSecurity/CustomSpringSecurity.iml" />
       <module fileurl="file://$PROJECT_DIR$/DataStructureAndAlgorithm/DataStructureAndAlgorithm.iml" filepath="$PROJECT_DIR$/DataStructureAndAlgorithm/DataStructureAndAlgorithm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringResearch/SpringResearch.iml" filepath="$PROJECT_DIR$/SpringResearch/SpringResearch.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-embed-tomcat/spring-embed-tomcat.iml" filepath="$PROJECT_DIR$/spring-embed-tomcat/spring-embed-tomcat.iml" />
       <module fileurl="file://$PROJECT_DIR$/wizard-2.0.iml" filepath="$PROJECT_DIR$/wizard-2.0.iml" />
     </modules>
