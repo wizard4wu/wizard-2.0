@@ -15,7 +15,7 @@ public enum RoleEnum implements RoleOperation {
         }
 
     },
-    HEADMASTER("headmaster") {
+    HEADMASTER_ROLE("headmaster") {
         public void doSomething() {
             System.out.println("校长审作业");
         }
@@ -27,12 +27,16 @@ public enum RoleEnum implements RoleOperation {
     RoleEnum(String value) {
         this.value = value;
     }
+
+    public String getValue(){
+        return this.value;
+    }
     //所有角色都会调用该方法
     public void doThing() {
         System.out.println("校长审作业");
     }
 
     public static void main(String[] args) {
-        RoleEnum.HEADMASTER.doSomething();
+        RoleEnum.HEADMASTER_ROLE.doSomething();
     }
 }

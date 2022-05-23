@@ -21,7 +21,7 @@ public class ReadySecurityController {
         return "Test Get";
     }
 
-    @PostMapping("/ready/security/post")
+    @GetMapping("/ready/security/post")
     public String testPost(@CurrentUser LoginUser loginUser){
         System.out.println(loginUser);
         return "Test Post";
