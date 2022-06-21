@@ -5,10 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8d5fa4c-da11-4a92-8f6e-931b9a44ec3f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/solution/ifelse/methodenum/NameEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/design/pattern/proxy/ProxyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/design/pattern/proxy/ProxyClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/design/pattern/proxy/ProxyInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/design/pattern/proxy/TargetClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/design/pattern/strategy/ClientDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/design/pattern/strategy/Strategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/design/pattern/strategy/StrategyContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/design/pattern/strategy/StrategyMethodOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/design/pattern/strategy/StrategyMethodTwo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/solution/ifelse/methodenum/RoleEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/solution/ifelse/methodenum/RoleEnum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,9 +24,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -34,9 +40,6 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="jar://C:/Program Files/Java/jdk-16.0.2/src.zip!/java/util/Optional.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -81,13 +84,13 @@
       <recent name="com.dev.wizard.many.implement" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NameEnum">
-    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dev.wizard.solution.ifelse.methodenum.Demo" />
+  <component name="RunManager" selected="Application.ClientDemo">
+    <configuration name="ClientDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dev.wizard.design.pattern.strategy.ClientDemo" />
       <module name="CommonSolution" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dev.wizard.solution.ifelse.methodenum.*" />
+          <option name="PATTERN" value="com.dev.wizard.design.pattern.strategy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JWTUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wizard.security.custom.util.JWTUtil" />
-      <module name="CustomSpringSecurity" />
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dev.wizard.solution.ifelse.methodenum.Demo" />
+      <module name="CommonSolution" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wizard.security.custom.util.*" />
+          <option name="PATTERN" value="com.dev.wizard.solution.ifelse.methodenum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RoleEnum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dev.wizard.solution.ifelse.methodenum.RoleEnum" />
+    <configuration name="ProxyClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dev.wizard.design.pattern.proxy.ProxyClient" />
       <module name="CommonSolution" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dev.wizard.solution.ifelse.methodenum.*" />
+          <option name="PATTERN" value="com.dev.wizard.design.pattern.proxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,13 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringSecurityApplicationStarter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.wizard.security.SpringSecurityApplicationStarter" />
-      <module name="CustomSpringSecurity" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+    <configuration name="RoleEnum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dev.wizard.solution.ifelse.methodenum.RoleEnum" />
+      <module name="CommonSolution" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.wizard.security.*" />
+          <option name="PATTERN" value="com.dev.wizard.solution.ifelse.methodenum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,19 +162,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SpringSecurityApplicationStarter" />
-      <item itemvalue="Application.JWTUtil" />
       <item itemvalue="Application.Demo" />
       <item itemvalue="Application.RoleEnum" />
       <item itemvalue="Application.NameEnum" />
+      <item itemvalue="Application.ClientDemo" />
+      <item itemvalue="Application.ProxyClient" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClientDemo" />
+        <item itemvalue="Application.ProxyClient" />
         <item itemvalue="Application.NameEnum" />
         <item itemvalue="Application.RoleEnum" />
         <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.JWTUtil" />
-        <item itemvalue="Application.SpringSecurityApplicationStarter" />
       </list>
     </recent_temporary>
   </component>
