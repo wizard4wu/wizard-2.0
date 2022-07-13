@@ -15,6 +15,7 @@
         <module>spring-embed-tomcat</module>
         <module>CustomSpringSecurity</module>
         <module>SpringResearch</module>
+        <module>SpringBootResearch</module>
 
     </modules>
     <parent>
@@ -65,6 +66,11 @@
                 <groupId>com.google.guava</groupId>
                 <artifactId>guava</artifactId>
                 <version>29.0-jre</version>
+            </dependency>
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>1.2.28</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
