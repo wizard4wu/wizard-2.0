@@ -10,9 +10,9 @@ public class User extends People{
 
     public static void main(String[] args) {
         User user = new User();
-        user.setName("ss");
+
         copy(user);
-        System.out.println(user.getName());
+
     }
 
 
@@ -23,8 +23,5 @@ public class User extends People{
 
     private static void copy(User user){
 
-        User usere = new User();
-        usere.setName("ddd");
-        user = usere;
     }
 }

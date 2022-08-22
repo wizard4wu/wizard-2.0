@@ -8,6 +8,7 @@
     </JAVADOC>
     <SOURCES>
       <root url="jar://F:/Repository/maven_respository/org/aspectj/aspectjrt/1.8.13/aspectjrt-1.8.13-sources.jar!/" />
+      <root url="file://F:/Repository/maven_respository/org/aspectj/aspectjrt/1.8.14" />
     </SOURCES>
   </library>
 </component>

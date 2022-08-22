@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aspectj>
+    <aspects>
+        <!-- ①切面类 -->
+        <aspect name="com.dev.wizard.springboot.proxy.agent.MyAspect" />
+    </aspects>
+    <weaver options="-Xset:weaveJavaxPackages=true">
+        <!-- ② 指定需要进行织入操作的目标类范围 -->
+        <include within="com.dev.wizard.springboot.proxy.agent.*" />
+    </weaver>
+</aspectj>

@@ -10,6 +10,7 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
+import java.io.ObjectStreamField;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -26,11 +27,14 @@ public class TestObj implements Serializable {
 
     private List<String> testList;
 
+//    private static final ObjectStreamField[] serialPersistentFields =
+//            new ObjectStreamField[0];
+
 
     public static void main(String[] args) throws Exception {
-        String value = "Hello World Json";
-        ObjectMapper objectMapper = new ObjectMapper();
-        objectMapper.writeValue(new FileOutputStream("C:\\Users\\wizard\\Desktop\\json.txt"), value);
+//        String value = "Hello World Json";
+//        ObjectMapper objectMapper = new ObjectMapper();
+//        objectMapper.writeValue(new FileOutputStream("C:\\Users\\wizard\\Desktop\\json.txt"), value);
 
 
         TestObj obj = new TestObj();
@@ -42,11 +46,12 @@ public class TestObj implements Serializable {
 
         ObjectOutputStream objectOutputStream = new ObjectOutputStream(fileOutputStream);
         objectOutputStream.writeObject(obj);
+        objectOutputStream.close();
 
-        FileInputStream fileInputStream = new FileInputStream("C:\\Users\\wizard\\Desktop\\test.txt");
-        ObjectInputStream objectInputStream = new ObjectInputStream(fileInputStream);
-        TestObj test = (TestObj) objectInputStream.readObject();
-        objectInputStream.close();
-        System.out.println(test);
+//        FileInputStream fileInputStream = new FileInputStream("C:\\Users\\wizard\\Desktop\\test.txt");
+//        ObjectInputStream objectInputStream = new ObjectInputStream(fileInputStream);
+//        TestObj test = (TestObj) objectInputStream.readObject();
+//        objectInputStream.close();
+//        System.out.println(test);
     }
 }
