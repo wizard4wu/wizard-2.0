@@ -1,6 +1,6 @@
 # spring default config
 spring.redis:
-  host: 10.100.113.38
+  host: <your-ipv4>
   port: 6379
   timeout: 5000
   lettuce.pool:

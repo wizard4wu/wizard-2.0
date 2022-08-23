@@ -3,7 +3,7 @@ server:
 
 # spring default config
 spring.redis:
-  host: 10.100.113.38
+  host: <your-ipv4>
   password: redispw
   port: 49153
   timeout: 5000
