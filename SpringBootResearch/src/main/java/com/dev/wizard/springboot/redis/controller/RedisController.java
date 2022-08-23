@@ -33,8 +33,6 @@ public class RedisController {
         return objectMapper.readValue(stringValue, TestObj.class);
     }
 
-
-
     static class TestObj{
         private String name;
         private int age;

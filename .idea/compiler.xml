@@ -12,6 +12,7 @@
         <module name="CommonSolution" />
         <module name="DataStructureAndAlgorithm" />
         <module name="SpringResearch" />
+        <module name="SpringBootWithDocker" />
         <module name="spring-embed-tomcat" />
         <module name="SpringBootResearch" />
       </profile>
@@ -23,6 +24,7 @@
       <module name="DataStructureAndAlgorithm" target="8" />
       <module name="spring-embed-tomcat" target="8" />
       <module name="SpringBootResearch" target="8" />
+      <module name="SpringBootWithDocker" target="8" />
       <module name="SpringResearch" target="8" />
       <module name="wizard-2.0" target="1.8" />
     </bytecodeTargetLevel>
@@ -34,6 +36,7 @@
       <module name="CustomSpringSecurity" options="-parameters" />
       <module name="DataStructureAndAlgorithm" options="-parameters" />
       <module name="SpringBootResearch" options="-parameters" />
+      <module name="SpringBootWithDocker" options="-parameters" />
       <module name="SpringResearch" options="-parameters" />
       <module name="spring-embed-tomcat" options="-parameters" />
     </option>

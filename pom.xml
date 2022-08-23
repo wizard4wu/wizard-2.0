@@ -16,6 +16,7 @@
         <module>CustomSpringSecurity</module>
         <module>SpringResearch</module>
         <module>SpringBootResearch</module>
+        <module>SpringBootWithDocker</module>
 
     </modules>
     <parent>
