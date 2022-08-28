@@ -17,6 +17,7 @@
         <module>SpringResearch</module>
         <module>SpringBootResearch</module>
         <module>SpringBootWithDocker</module>
+        <module>SpringBootWithDockerSecondary</module>
 
     </modules>
     <parent>
