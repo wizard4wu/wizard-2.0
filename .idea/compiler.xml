@@ -12,23 +12,16 @@
         <module name="CommonSolution" />
         <module name="DataStructureAndAlgorithm" />
         <module name="SpringResearch" />
+        <module name="MavenRepo" />
         <module name="SpringBootWithDocker" />
         <module name="spring-embed-tomcat" />
+        <module name="SpringCloudDemo" />
         <module name="SpringBootResearch" />
         <module name="SpringBootWithDockerSecondary" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="CommonSolution" target="8" />
-      <module name="CustomRedis" target="8" />
-      <module name="CustomSpringSecurity" target="8" />
-      <module name="DataStructureAndAlgorithm" target="8" />
-      <module name="spring-embed-tomcat" target="8" />
-      <module name="SpringBootResearch" target="8" />
-      <module name="SpringBootWithDocker" target="8" />
-      <module name="SpringBootWithDockerSecondary" target="8" />
-      <module name="SpringResearch" target="8" />
-      <module name="wizard-2.0" target="1.8" />
+      <module name="MavenRepo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -40,6 +33,7 @@
       <module name="SpringBootResearch" options="-parameters" />
       <module name="SpringBootWithDocker" options="-parameters" />
       <module name="SpringBootWithDockerSecondary" options="-parameters" />
+      <module name="SpringCloudDemo" options="-parameters" />
       <module name="SpringResearch" options="-parameters" />
       <module name="spring-embed-tomcat" options="-parameters" />
     </option>

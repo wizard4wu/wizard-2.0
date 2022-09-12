@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class ManyImplementsStarter {
 
-    public static void main(String[] args) {
-        SpringApplication.run(ManyImplementsStarter.class);
-    }
+//    public static void main(String[] args) {
+//        SpringApplication.run(ManyImplementsStarter.class);
+//    }
 }

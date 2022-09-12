@@ -1,0 +1,17 @@
+# spring default config
+spring.redis:
+  host: <your-ipv4>
+  port: 6379
+  timeout: 5000
+  lettuce.pool:
+    # max connection number in connection poll, default number is 8
+    max-active: 20
+    # max wait time, default -1, this means there is no restrict. Unit: ms
+    max-wait: -1
+    # max idle connection number, default is 8
+    max-idle: 8
+    # min idle connection number, default is 0
+    min-idle: 0
+
+server:
+  address: 0.0.0.0

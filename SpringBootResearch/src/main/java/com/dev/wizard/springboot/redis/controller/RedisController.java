@@ -13,6 +13,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.io.IOException;
+
 @RestController
 @RequestMapping("/redis")
 public class RedisController {
@@ -24,7 +26,7 @@ public class RedisController {
     @Autowired
     private StringRedisTemplate stringRedisTemplate;
     @GetMapping("/setRedis")
-    public TestObj setRedis(@RequestParam("value") String value) throws JsonProcessingException {
+    public TestObj setRedis(@RequestParam("value") String value) throws IOException {
 
         TestObj obj = new TestObj(3, value);
         stringRedisTemplate.opsForValue().set("test", objectMapper.writeValueAsString(obj));

@@ -2,9 +2,19 @@
 <project version="4">
   <component name="RemoteRepositoriesConfiguration">
     <remote-repository>
+      <option name="id" value="ijiangtao-net-repo" />
+      <option name="name" value="ijiangtao.net repository" />
+      <option name="url" value="https://raw.githubusercontent.com/ijiangtao/ijiangtao-net-repo/master/repository" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="central" />
       <option name="name" value="Central Repository" />
       <option name="url" value="https://repo.maven.apache.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="com-dev-wizard" />
+      <option name="name" value="com-dev-wizard" />
+      <option name="url" value="http://mirrors.163.com/maven/repository/maven-public/" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="central" />
@@ -17,9 +27,79 @@
       <option name="url" value="https://repo1.maven.org/maven2" />
     </remote-repository>
     <remote-repository>
+      <option name="id" value="github" />
+      <option name="name" value="github" />
+      <option name="url" value="https://raw.githubusercontent.com/Encyclopedias/OpenUtils/main/mvn-repo" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven-repo" />
+      <option name="name" value="maven-repo" />
+      <option name="url" value="https://raw.githubusercontent.com/Encyclopedias/MavenRepo/main/repo" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="com.dev.wizard" />
+      <option name="name" value="com.dev.wizard" />
+      <option name="url" value="http://mirrors.163.com/maven/repository/maven-public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="github" />
+      <option name="name" value="github" />
+      <option name="url" value="http://mirrors.163.com/maven/repository/maven-public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="github-maven" />
+      <option name="name" value="github-maven" />
+      <option name="url" value="https://raw.githubusercontent.com/myloginname/mvn-repo/master" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="spring-snapshot" />
+      <option name="name" value="Spring Snapshot Repository" />
+      <option name="url" value="http://mirrors.163.com/maven/repository/maven-public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Central Repository" />
+      <option name="url" value="https://maven.aliyun.com/nexus/content/repositories/central/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="ykz200-maven-repo" />
+      <option name="name" value="ykz200-maven-repo" />
+      <option name="url" value="http://mirrors.163.com/maven/repository/maven-public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="open-utils" />
+      <option name="name" value="open-utils" />
+      <option name="url" value="http://mirrors.163.com/maven/repository/maven-public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="ykz200-maven-repo" />
+      <option name="name" value="bhusk.com repository" />
+      <option name="url" value="http://mirrors.163.com/maven/repository/maven-public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="central" />
+      <option name="url" value="https://maven.aliyun.com/nexus/content/repositories/central/" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="jboss.community" />
       <option name="name" value="JBoss Community repository" />
       <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="github" />
+      <option name="name" value="OpenUtils" />
+      <option name="url" value="http://mirrors.163.com/maven/repository/maven-public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="spring-milestone" />
+      <option name="name" value="Spring Milestone Repository" />
+      <option name="url" value="http://mirrors.163.com/maven/repository/maven-public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="OpenUtils" />
+      <option name="name" value="OpenUtils" />
+      <option name="url" value="http://mirrors.163.com/maven/repository/maven-public/" />
     </remote-repository>
   </component>
 </project>
