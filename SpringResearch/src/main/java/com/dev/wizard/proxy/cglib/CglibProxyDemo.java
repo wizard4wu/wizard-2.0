@@ -1,11 +1,16 @@
 package com.dev.wizard.proxy.cglib;
 
+import org.springframework.cglib.core.DebuggingClassWriter;
 import org.springframework.cglib.proxy.Enhancer;
 import org.springframework.cglib.proxy.MethodInterceptor;
+
+import java.time.Instant;
+import java.time.temporal.ChronoUnit;
 
 public class CglibProxyDemo {
 
     public static void main(String[] args) {
+        System.setProperty(DebuggingClassWriter.DEBUG_LOCATION_PROPERTY, "SpringResearch\\cglib");
 
         Target target = new Target();
         /**
@@ -19,19 +24,20 @@ public class CglibProxyDemo {
         Target proxyObject = (Target) Enhancer.create(Target.class, (MethodInterceptor) (proxyObj, method, methodArgs, methodProxy) -> {
             System.out.println("before...");
             //1.使用目标方法通过反射方式执行
-             //Object result = method.invoke(target, methodArgs);
+            //Object result = method.invoke(target, methodArgs);
 
             //2.使用代理方法方式调用  底层无反射 spring的选择
-           // Object result = methodProxy.invoke(target, methodArgs);
+            //Object result = methodProxy.invoke(target, methodArgs);
+            //com.dev.wizard.proxy.spring.SelectProxyInSpring$TargetClass$$EnhancerBySpringCGLIB$$6b9c354f
 
             //3.使用代理方法父类方法  底层无反射
             Object result = methodProxy.invokeSuper(proxyObj, methodArgs);
             System.out.println("after...");
             String returnString = (String) result;
 
-            return returnString + "after Proxy" ;
+            return returnString + "after Proxy";
         });
-        String value = proxyObject.proxyMethod();
+        String value = proxyObject.testMethod();
 
         System.out.println(value);
     }
@@ -41,9 +47,9 @@ public class CglibProxyDemo {
         /**
          * 该方法如果被final或者是private修饰的，那么代理对象就无法对该方法实现代理
          */
-       public String proxyMethod() {
-            System.out.println("Target + proxyMethod");
-            return "return: Target + proxyMethod";
+       public String testMethod() {
+            System.out.println("Target + testMethod");
+            return "return: Target + testMethod";
         }
     }
 }

@@ -8,6 +8,6 @@ public class CglibTarget {
 
     public String saveMethod(int value){
         System.out.println("CglibTarget -- int参 saveMethod" + value);
-        return "int参";
+        return "int参" + value;
     }
 }

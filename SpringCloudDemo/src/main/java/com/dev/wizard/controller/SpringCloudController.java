@@ -9,11 +9,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/springcloud")
 public class SpringCloudController {
-
     @Autowired
     private OrderInterface orderInterface;
     @GetMapping("/feign")
     public void testFeign(){
+        System.out.println("test");
         orderInterface.getOrderById("orderId", null, "encodeOrderKey");
     }
 }

@@ -1,6 +1,8 @@
 package com.dev.wizard.proxy.jdk;
 
 
+import org.springframework.cglib.core.DebuggingClassWriter;
+
 import java.io.IOException;
 import java.lang.reflect.Proxy;
 
@@ -35,6 +37,8 @@ public class JDKProxy {
 
     public static void main(String[] args) throws IOException {
 
+        System.getProperties().put("sun.misc.ProxyGenerator.saveGeneratedFiles", "true");
+
         //1.获取当前加载该代理的类加载器，用于加载运行期间生成的字节码文件
         ClassLoader loader = JDKProxy.class.getClassLoader();
         //2.获取目标类的对象
@@ -53,6 +57,6 @@ public class JDKProxy {
         });
 
         System.out.println(proxyInterface.getClass());
-        System.in.read();
+       // System.in.read();
     }
 }

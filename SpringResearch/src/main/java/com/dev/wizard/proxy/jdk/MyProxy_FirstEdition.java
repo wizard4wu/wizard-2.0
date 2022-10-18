@@ -37,7 +37,6 @@ public class MyProxy_FirstEdition {
         public void voidMethod() {
             System.out.println("before...");
             new Target().voidMethod();
-
         }
 
         @Override
