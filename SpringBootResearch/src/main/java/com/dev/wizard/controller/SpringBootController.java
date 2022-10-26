@@ -32,9 +32,6 @@ public class SpringBootController {
 //        CommonSpringEventType.DogEvent dogEvent = new CommonSpringEventType.DogEvent(this, "Dog");
 //        applicationEventPublisher.publishEvent(dogEvent);
 
-        //add the useless code
-
-        //add test useless code；；；；
         Thread.sleep(3000);
         System.out.println("event publish finish");
     }
