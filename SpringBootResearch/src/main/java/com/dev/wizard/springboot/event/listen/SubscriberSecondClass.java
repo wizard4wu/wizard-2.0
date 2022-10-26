@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class SubscriberSecondClass implements ApplicationListener<CurrentUser> {
-    private static final Logger logger = LoggerFactory.getLogger(SubscriberClass.class);
+    private static final Logger logger = LoggerFactory.getLogger(SubscriberSecondClass.class);
     @Override
     public void onApplicationEvent(CurrentUser currentUser) {
         logger.info("SubscriberSecondClass + onApplicationEvent + " + currentUser.getName());
