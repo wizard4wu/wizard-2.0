@@ -37,9 +37,11 @@ public class CglibProxyDemo {
 
             return returnString + "after Proxy";
         });
-        String value = proxyObject.testMethod();
 
-        System.out.println(value);
+        proxyObject.testPrivate();
+//
+//        String value = proxyObject.testMethod();
+//        System.out.println(value);
     }
 
     //该类被final修饰时时不能生成代理对象的， 会报错
@@ -50,6 +52,10 @@ public class CglibProxyDemo {
        public String testMethod() {
             System.out.println("Target + testMethod");
             return "return: Target + testMethod";
+        }
+
+        public void testPrivate(){
+            System.out.println("Target + testPrivate");
         }
     }
 }

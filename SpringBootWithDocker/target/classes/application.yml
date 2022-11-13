@@ -1,5 +1,8 @@
 server:
   port: 80
+spring:
+  main:
+    allow-circular-references: false
 
 # spring default config
 spring.redis:

@@ -16,4 +16,8 @@ public class BeanE {
     public void init(){
         log.info("BeanE init()");
     }
+
+    public void test(){
+        System.out.println("BeanE + test()");
+    }
 }

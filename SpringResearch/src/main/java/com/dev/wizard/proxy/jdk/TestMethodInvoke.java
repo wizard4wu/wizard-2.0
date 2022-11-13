@@ -1,10 +1,9 @@
 package com.dev.wizard.proxy.jdk;
 
-import sun.reflect.MethodAccessor;
 
-import java.io.IOException;
+import jdk.internal.reflect.MethodAccessor;
+
 import java.lang.reflect.Field;
-import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.stream.IntStream;
 

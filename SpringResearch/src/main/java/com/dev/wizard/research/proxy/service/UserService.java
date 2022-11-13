@@ -26,8 +26,8 @@ public class UserService {
     @Subscribe
     private void testProxyPrivate(User user){
         privateMethod();
-       orderService.order();
-       System.out.println("private orderService.toString()");
+        orderService.order();
+        System.out.println("private orderService.toString()");
     }
 
     @Subscribe

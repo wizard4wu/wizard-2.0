@@ -15,7 +15,7 @@ import java.util.stream.IntStream;
 
 public class FutureDemo {
 
-    @SneakyThrows
+
     public static void main(String[] args) {
         ThreadPoolTaskExecutor threadPoolTaskExecutor = new ThreadPoolTaskExecutor();
         threadPoolTaskExecutor.setCorePoolSize(10);

@@ -60,7 +60,7 @@ public class DifferentAspectDemo {
         }
     }
 
-    @Configuration
+
     static class Config {
 
         @Bean

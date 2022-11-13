@@ -1,26 +1,27 @@
-package com.dev.wizard.springboot.cyclebean;
+package com.dev.wizard.bean;
 
+import io.netty.util.internal.StringUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.config.BeanPostProcessor;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.PostConstruct;
+import java.util.List;
 
 @Service
 @Slf4j
 public class BeanA {
 
     @Autowired
-    private BeanB beanB;
-
-
+    private BeanC beanC;
     public BeanA(){
-        log.info("BeanA 构造函数");
+       log.info("Constructor + BeanA");
     }
 
     @PostConstruct
     public void init(){
-        log.info("BeanA init()");
+        log.info("init + BeanA");
     }
+
 }
+

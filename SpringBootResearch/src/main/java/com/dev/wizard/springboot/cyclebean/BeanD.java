@@ -22,4 +22,9 @@ public class BeanD {
     public void init(){
         log.info("BeanD init()");
     }
+
+    @TestAnno
+    public void testMethodBeanD(){
+        log.info("BeanD testMethodBeanD");
+    }
 }

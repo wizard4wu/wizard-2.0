@@ -29,11 +29,4 @@ public class LoginUser {
         return this.name;
     }
 
-    private List<String> getHobbies() {
-        System.out.println("getHobbies():" + this.hobbies);
-        if (null == this.hobbies) {
-            this.hobbies = new ArrayList<>();
-        }
-        return this.hobbies;
-    }
 }

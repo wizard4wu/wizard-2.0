@@ -1,6 +1,5 @@
 package com.dev.wizard.proxy.spring;
 
-import com.sun.scenario.effect.Merge;
 import org.springframework.aop.aspectj.AspectJExpressionPointcut;
 import org.springframework.aop.support.StaticMethodMatcherPointcut;
 import org.springframework.core.annotation.MergedAnnotation;

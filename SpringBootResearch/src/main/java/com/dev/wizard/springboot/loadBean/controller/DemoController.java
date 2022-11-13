@@ -1,12 +1,12 @@
 package com.dev.wizard.springboot.loadBean.controller;
 
 import com.dev.wizard.springboot.loadBean.service.OrderService;
+
+import jdk.internal.reflect.MethodAccessor;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.core.annotation.Order;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import sun.reflect.MethodAccessor;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;

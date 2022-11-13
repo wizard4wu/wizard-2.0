@@ -20,11 +20,11 @@ public class SubscriberClass implements ApplicationListener<CurrentUser> {
     @Override
     @Async
     public void onApplicationEvent(CurrentUser currentUser) {
-        log.info("SubscriberClass + onApplicationEvent + " + currentUser.getName());
+       // log.info("SubscriberClass + onApplicationEvent + " + currentUser.getName());
     }
 
 
     public void handleCurrentUserThird(CurrentUser currentUser){
-        log.info("SubscriberClass + handleCurrentUser + " + currentUser.getName());
+       // log.info("SubscriberClass + handleCurrentUser + " + currentUser.getName());
     }
 }

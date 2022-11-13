@@ -5,13 +5,19 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.PostConstruct;
+import java.util.List;
 
 @Service
 @Slf4j
 public class BeanB {
 
     @Autowired
-    private BeanC beanC;
+    private SecondHandler myHandlerList;
+
+    @Autowired
+    private BeanE beanE;
+
+
 
     public BeanB(){
         log.info("BeanB 构造函数");
@@ -20,5 +26,10 @@ public class BeanB {
     @PostConstruct
     public void init(){
         log.info("BeanB init()");
+    }
+
+    public void test(){
+        beanE.test();
+        System.out.println("BeanB + test");
     }
 }

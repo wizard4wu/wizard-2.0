@@ -15,7 +15,7 @@ public class ReflectionDemo {
 
        Class parentClazz = sonClazz.getSuperclass();
 
-       Method method = parentClazz.getDeclaredMethod("age");
+       Method method = parentClazz.getDeclaredMethod("eat");
        method.setAccessible(true);
        method.invoke(new Son());
 
@@ -31,6 +31,7 @@ public class ReflectionDemo {
 //
 //      Set<? extends Class<?>> supertypes = TypeToken.of(sonClazz).getTypes().rawTypes();
 //      supertypes.forEach( type -> System.out.println(type));
+
 
 
     }
