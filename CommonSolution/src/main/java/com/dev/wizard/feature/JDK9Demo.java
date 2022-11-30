@@ -3,14 +3,22 @@ package com.dev.wizard.feature;
 
 import com.dev.wizard.domain.LoginUser;
 import com.dev.wizard.domain.Person;
+import com.google.common.collect.Maps;
 
+import java.io.PrintStream;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.Collections;
+import java.util.Comparator;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Optional;
 import java.util.Set;
+import java.util.TreeMap;
 import java.util.stream.Collectors;
 
 public class JDK9Demo {
@@ -18,6 +26,9 @@ public class JDK9Demo {
         //1.静态工厂方式方便创建集合对象，注意创建的集合对象都不允许任何写操作, 所有的都不可以为null
         List<String> list = List.of("test1", "test2", "test3");
         //list.set(0, "test1_update");  报UOE错
+        for(String str : list){
+            System.out.println(str);
+        }
 
         //set/map不能保证输出的顺序和定义元素/键值对的顺序一致
         Set<String> set = Set.of("test1", "test2", "test3");
@@ -36,6 +47,30 @@ public class JDK9Demo {
         //2.dropWhile 从头开始删除 遇到不满足的就结束流 返回原始流剩下的结果
         List<Integer> dropWhileResult = list.stream().dropWhile(value -> value < 33).collect(Collectors.toList());
         System.out.println(dropWhileResult);  //[33, 44, 4]
+    }
+    public static void testMap(){
+        //该Map内部有个随机盐Salt，在JVM的生命周期是不变的，每次启动会变化
+        Map<String, String> map = Map.of("hello", "world", "张三","李四", "Tom", "Jerry", "罗密欧", "朱丽叶");
+//      Map<String, String> resultMap = map.entrySet().stream().takeWhile(entry -> "Tom".equals(entry.getKey())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+//      System.out.println(resultMap);
+    }
+
+    public static void testHashSet(){
+        Set<String> set = new HashSet<>();
+        set.add("ABCDEa123abc");
+        set.add("ABCDFB123abc");
+        set.add("tt");
+        set.add("ee");
+        set.add("yy");
+        set.forEach( s -> System.out.println(s));
+        set.forEach( s -> System.out.println(s));
+        set.forEach( s -> System.out.println(s));
+    }
+    public static void testSetStaticFactory(){
+        Set<String> set = Set.of("he", "zz", "tt", "ee", "yy");
+        set.forEach( s -> System.out.println(s));
+        set.forEach( s -> System.out.println(s));
+        set.forEach( s -> System.out.println(s));
     }
 
     public static void newOptionalMethod() {
@@ -95,18 +130,18 @@ public class JDK9Demo {
 
         Person nullPerson = null;
         //普通的方式：
-//        if(null == nullPerson){
-//            Person person1 = new Person();
-//            person1.setId("test1");
-//            if(null == person1){
-//                Person person2 = new Person();
-//                person2.setId("test2");
-//                return person2.getId();
-//            }
-//            return person1.getId();
-//        }
-
-
+        String result0 = null;
+        if(null == nullPerson){
+            Person person1 = new Person();
+            result0 = person1.getId();
+            if(null == person1){
+                Person person2 = new Person();
+                person2.setId("test2");
+                result0 = person2.getId();
+            }else {
+                result0 = "id";
+            }
+        }
 
         String result = Optional.ofNullable(nullPerson)
                 .or(() -> {
@@ -124,9 +159,11 @@ public class JDK9Demo {
     }
 
     public static void main(String[] args) {
-        //  createCollection();
+         // createCollection();
         //  newStreamMethod();
-        newOptionalMethod();
+        //newOptionalMethod();
+        //testHashSet();
+        //testSetStaticFactory();
+        //System.out.println(tableSizeFor(33));
     }
-
 }

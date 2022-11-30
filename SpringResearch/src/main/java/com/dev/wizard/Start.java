@@ -19,12 +19,12 @@ public class Start {
     public static void main(String[] args) {
         System.setProperty(DebuggingClassWriter.DEBUG_LOCATION_PROPERTY, "SpringResearch\\cglib");
         AnnotationConfigApplicationContext applicationContext = new AnnotationConfigApplicationContext(AppConfig.class);
-        UserService userService = (UserService) applicationContext.getBean("userService");
+       // UserService userService = (UserService) applicationContext.getBean("userService");
 
-        userService.testProxy();
-        EventBus eventBus = (EventBus) applicationContext.getBean("eventBus");
-        User user = new User();
-        eventBus.post(user);
+//        userService.testProxy();
+//        EventBus eventBus = (EventBus) applicationContext.getBean("eventBus");
+//        User user = new User();
+//        eventBus.post(user);
 
     }
 }

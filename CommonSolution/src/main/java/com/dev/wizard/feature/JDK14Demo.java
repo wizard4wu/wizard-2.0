@@ -24,8 +24,7 @@ public class JDK14Demo {
          */
 
         Object value = "abc";
-        if (value instanceof String) {
-            String newValue = (String) value;
+        if (value instanceof String newValue) {
             System.out.println(newValue.length());
         }
 
@@ -33,6 +32,20 @@ public class JDK14Demo {
             System.out.println(newValue.length());
         }
 
+    }
+
+    public static void instanceofMethod() {
+        //before
+        Object value = "abc";
+        if (value instanceof String) {
+            String newValue = (String) value;
+            System.out.println(newValue.length());
+        }
+
+        //after
+        if (value instanceof String newValue) {
+            System.out.println(newValue.length());
+        }
     }
 
     public static void main(String[] args) {

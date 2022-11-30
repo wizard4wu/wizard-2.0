@@ -11,4 +11,9 @@ public class Japanese implements People {
     public void speak() {
         System.out.println("日本人说日语");
     }
+
+    @Override
+    public String getType() {
+        return "japanese";
+    }
 }

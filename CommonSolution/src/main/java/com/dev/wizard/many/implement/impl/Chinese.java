@@ -11,4 +11,9 @@ public class Chinese implements People {
     public void speak() {
         System.out.println("中国人说汉语");
     }
+
+    @Override
+    public String getType() {
+        return "chinese";
+    }
 }

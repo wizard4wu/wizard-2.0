@@ -5,63 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8d5fa4c-da11-4a92-8f6e-931b9a44ec3f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/feature/JDK10Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/feature/JDK14Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/feature/JDK17Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/feature/JDK9Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/lambda/LambdaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/lambda/MyFirstFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/lambda/MySecondFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/lambda/ParallelStreamDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/thread/ThreadDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootResearch/src/main/java/com/dev/wizard/springboot/cyclebean/BeanF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootResearch/src/main/java/com/dev/wizard/springboot/cyclebean/BeanG.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootResearch/src/main/java/com/dev/wizard/springboot/cyclebean/BeanH.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootResearch/src/main/java/com/dev/wizard/springboot/cyclebean/FirstHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootResearch/src/main/java/com/dev/wizard/springboot/cyclebean/JdkObjectA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootResearch/src/main/java/com/dev/wizard/springboot/cyclebean/JdkObjectB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootResearch/src/main/java/com/dev/wizard/springboot/cyclebean/MyHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootResearch/src/main/java/com/dev/wizard/springboot/cyclebean/SecondHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootResearch/src/main/java/com/dev/wizard/springboot/cyclebean/TestAnno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/bean/BeanA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/bean/BeanB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/bean/BeanC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/bean/BeanCWithPostProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_16.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/collection/HashMapDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/collection/HashMapThreadSecurity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/music/CangHaiYiShengXiao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/music/Canon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/music/Midi2JFugueMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/music/MusicDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/music/QiFengLeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/music/TenYears.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/music/canon.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/singleton/SingletonInstanceDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/singleton/SingletonSecondDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/bean/MyAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/bean/ProxyBeanA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/controller/BeanController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringResearch/src/main/java/com/dev/wizard/proxy/aspect/AspectDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonSolution/CommonSolution.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CommonSolution/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CommonSolution/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/concurrent/FutureDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/concurrent/FutureDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/domain/LoginUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/domain/LoginUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/lambda/LambdaDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/lambda/LambdaDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/reflection/ReflectionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/reflection/ReflectionDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBootResearch/src/main/java/com/dev/wizard/springboot/cyclebean/BeanA.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootResearch/src/main/java/com/dev/wizard/springboot/cyclebean/BeanA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBootResearch/src/main/java/com/dev/wizard/springboot/cyclebean/BeanB.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootResearch/src/main/java/com/dev/wizard/springboot/cyclebean/BeanB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBootResearch/src/main/java/com/dev/wizard/springboot/cyclebean/BeanC.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootResearch/src/main/java/com/dev/wizard/springboot/cyclebean/BeanC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBootResearch/src/main/java/com/dev/wizard/springboot/cyclebean/BeanD.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootResearch/src/main/java/com/dev/wizard/springboot/cyclebean/BeanD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBootResearch/src/main/java/com/dev/wizard/springboot/cyclebean/BeanE.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootResearch/src/main/java/com/dev/wizard/springboot/cyclebean/BeanE.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBootResearch/src/main/java/com/dev/wizard/springboot/event/listen/SubscriberClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootResearch/src/main/java/com/dev/wizard/springboot/event/listen/SubscriberClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBootResearch/src/main/java/com/dev/wizard/springboot/loadBean/controller/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootResearch/src/main/java/com/dev/wizard/springboot/loadBean/controller/DemoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/feature/JDK14Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/feature/JDK14Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/feature/JDK17Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/feature/JDK17Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/feature/JDK9Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/feature/JDK9Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/many/implement/impl/Chinese.java" beforeDir="false" afterPath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/many/implement/impl/Chinese.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/many/implement/impl/English.java" beforeDir="false" afterPath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/many/implement/impl/English.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/many/implement/impl/Japanese.java" beforeDir="false" afterPath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/many/implement/impl/Japanese.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/many/implement/service/People.java" beforeDir="false" afterPath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/many/implement/service/People.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonSolution/src/test/java/com/dev/wizard/ManyImplementsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/CommonSolution/src/test/java/com/dev/wizard/ManyImplementsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringBootWithDocker/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootWithDocker/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/config/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/config/RedisConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/controller/DockerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/controller/DockerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBootWithDocker/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootWithDocker/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBootWithDocker/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootWithDocker/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBootWithDockerSecondary/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBootWithDockerSecondary/src/main/java/com/dev/wizard/SpringBootWithDockerSecondaryMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBootWithDockerSecondary/src/main/java/com/dev/wizard/controller/TestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/SpringBootWithDockerStarter.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/SpringBootWithDockerStarter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/bean/BeanA.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/bean/BeanA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/bean/BeanB.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/bean/BeanB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/bean/BeanC.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/bean/BeanC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/bean/BeanCWithPostProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/bean/BeanCWithPostProcessor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringResearch/src/main/java/com/dev/wizard/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringResearch/src/main/java/com/dev/wizard/Start.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringResearch/src/main/java/com/dev/wizard/proxy/agent/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringResearch/src/main/java/com/dev/wizard/proxy/agent/Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringResearch/src/main/java/com/dev/wizard/proxy/cglib/CglibProxyDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringResearch/src/main/java/com/dev/wizard/proxy/cglib/CglibProxyDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringResearch/src/main/java/com/dev/wizard/proxy/jdk/TestMethodInvoke.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringResearch/src/main/java/com/dev/wizard/proxy/jdk/TestMethodInvoke.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringResearch/src/main/java/com/dev/wizard/proxy/spring/AspectPointMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringResearch/src/main/java/com/dev/wizard/proxy/spring/AspectPointMatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringResearch/src/main/java/com/dev/wizard/proxy/spring/DifferentAspectDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringResearch/src/main/java/com/dev/wizard/proxy/spring/DifferentAspectDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringResearch/src/main/java/com/dev/wizard/research/proxy/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringResearch/src/main/java/com/dev/wizard/research/proxy/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/SpringCloudDemo/com/dev/wizard/SpringCloudDemoStarter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/SpringCloudDemo/com/dev/wizard/domain/OrderDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/production/SpringCloudDemo/com/dev/wizard/feign/OrderInterface.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +112,6 @@
     <setting file="jar://F:/Repository/maven_respository/org/springframework/spring-core/5.3.15/spring-core-5.3.15-sources.jar!/org/springframework/core/SimpleAliasRegistry.java" root0="SKIP_INSPECTION" />
     <setting file="jar://F:/Repository/maven_respository/org/springframework/spring-core/5.3.15/spring-core-5.3.15.jar!/org/springframework/cglib/proxy/MethodInterceptor.class" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/.idea/workspace.xml" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/CommonSolution/CommonSolution.iml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CommonSolution/pom.xml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/check/duplicate/domain/ValiationDto.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/concurrent/CompletableFutureDemo.java" root0="FORCE_HIGHLIGHTING" />
@@ -218,11 +195,11 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8.0_291&quot;,
-    &quot;last_opened_file_path&quot;: &quot;G:/MyProject/wizard-2.0/CustomSpringSecurity/src/main/java/com/wizard/security&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/Repository/maven_respository/jfugue-5.0.9.jar&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.customizations&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;Debugger_Data_Views_Java&quot;
   }
 }</component>
   <component name="RebelAgentSelection">
@@ -230,11 +207,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\MyProject\wizard-2.0\CommonSolution\src\main\java\com\dev\wizard\music" />
       <recent name="G:\MyProject\wizard-2.0\CustomSpringSecurity\src\main\java\com\wizard\security" />
       <recent name="G:\MyProject\wizard-2.0\SpringBootResearch\src\main\resources" />
       <recent name="G:\MyProject\wizard-2.0\SpringBootResearch\docker" />
       <recent name="G:\MyProject\wizard-2.0\SpringResearch\src\main\resources" />
-      <recent name="G:\MyProject\wizard-2.0\SpringBootResearch\tool" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\MyProject\wizard-2.0\SpringBootResearch\src\main\resources" />
@@ -256,13 +233,14 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.ParallelStreamDemo">
-    <configuration name="JDK10Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dev.wizard.feature.JDK10Demo" />
+  <component name="RunManager" selected="Application.SpringBootWithDockerStarter">
+    <configuration name="HashMapDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dev.wizard.collection.HashMapDemo" />
       <module name="CommonSolution" />
+      <option name="VM_PARAMETERS" value="--add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.lang.invoke=ALL-UNNAMED" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dev.wizard.feature.*" />
+          <option name="PATTERN" value="com.dev.wizard.collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -270,12 +248,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JDK14Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dev.wizard.feature.JDK14Demo" />
+    <configuration name="HashMapThreadSecurity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dev.wizard.collection.HashMapThreadSecurity" />
       <module name="CommonSolution" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dev.wizard.feature.*" />
+          <option name="PATTERN" value="com.dev.wizard.collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -283,25 +261,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JDK17Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dev.wizard.feature.JDK17Demo" />
+    <configuration name="SingletonSecondDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dev.wizard.singleton.SingletonSecondDemo" />
       <module name="CommonSolution" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dev.wizard.feature.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ParallelStreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dev.wizard.lambda.ParallelStreamDemo" />
-      <module name="CommonSolution" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dev.wizard.lambda.*" />
+          <option name="PATTERN" value="com.dev.wizard.singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -318,6 +283,21 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ManyImplementsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CommonSolution" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dev.wizard.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.dev.wizard" />
+      <option name="MAIN_CLASS_NAME" value="com.dev.wizard.ManyImplementsTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -388,22 +368,22 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.ParallelStreamDemo" />
-      <item itemvalue="Application.JDK10Demo" />
-      <item itemvalue="Application.JDK14Demo" />
-      <item itemvalue="Application.JDK17Demo" />
+      <item itemvalue="Application.SingletonSecondDemo" />
       <item itemvalue="Application.SpringBootWithDockerStarter" />
+      <item itemvalue="Application.HashMapThreadSecurity" />
+      <item itemvalue="Application.HashMapDemo" />
       <item itemvalue="Docker.DemoAppDocker" />
       <item itemvalue="Docker.SpringBootWithDocker" />
       <item itemvalue="Docker.Test" />
+      <item itemvalue="JUnit.ManyImplementsTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ParallelStreamDemo" />
         <item itemvalue="Application.SpringBootWithDockerStarter" />
-        <item itemvalue="Application.JDK17Demo" />
-        <item itemvalue="Application.JDK14Demo" />
-        <item itemvalue="Application.JDK10Demo" />
+        <item itemvalue="Application.SingletonSecondDemo" />
+        <item itemvalue="Application.HashMapThreadSecurity" />
+        <item itemvalue="JUnit.ManyImplementsTest" />
+        <item itemvalue="Application.HashMapDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -649,11 +629,6 @@
           <url>file://F:/wizard/JDKLearn/src/my/java/io/ObjectOutputStream.java</url>
           <line>1425</line>
           <option name="timeStamp" value="288" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://F:/wizard/JDKLearn/src/my/java/io/ObjectStreamClass.java</url>
-          <line>1766</line>
-          <option name="timeStamp" value="289" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://F:/wizard/JDKLearn/src/my/java/io/ObjectStreamClass.java</url>
@@ -1011,18 +986,13 @@
           <option name="timeStamp" value="624" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/bean/BeanA.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="633" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/bean/BeanB.java</url>
           <line>8</line>
           <option name="timeStamp" value="636" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/bean/BeanCWithPostProcessor.java</url>
-          <line>22</line>
+          <line>41</line>
           <option name="timeStamp" value="643" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -1038,28 +1008,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://F:/Repository/maven_respository/org/springframework/spring-beans/5.3.15/spring-beans-5.3.15-sources.jar!/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java</url>
-          <line>187</line>
-          <option name="timeStamp" value="652" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://F:/Repository/maven_respository/org/springframework/spring-beans/5.3.15/spring-beans-5.3.15-sources.jar!/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java</url>
           <line>293</line>
           <option name="timeStamp" value="653" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/feature/JDK9Demo.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="661" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/feature/JDK17Demo.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="674" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://F:/Repository/maven_respository/org/springframework/spring-beans/5.3.15/spring-beans-5.3.15-sources.jar!/org/springframework/beans/factory/annotation/AutowiredAnnotationBeanPostProcessor.java</url>
-          <line>161</line>
-          <option name="timeStamp" value="678" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://F:/Repository/maven_respository/org/springframework/data/spring-data-commons/2.6.1/spring-data-commons-2.6.1-sources.jar!/org/springframework/data/mapping/model/AnnotationBasedPersistentProperty.java</url>
@@ -1068,46 +1018,226 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/bean/BeanC.java</url>
-          <line>10</line>
+          <line>11</line>
           <option name="timeStamp" value="680" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://F:/Repository/maven_respository/org/springframework/spring-beans/5.3.15/spring-beans-5.3.15-sources.jar!/org/springframework/beans/factory/annotation/AutowiredAnnotationBeanPostProcessor.java</url>
-          <line>462</line>
-          <option name="timeStamp" value="687" />
+          <url>file://$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/controller/BeanController.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="692" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/bean/ProxyBeanA.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="693" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/bean/BeanCWithPostProcessor.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="731" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/bean/BeanA.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="737" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/bean/ProxyBeanA.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="752" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://F:/Repository/maven_respository/jfugue/jfugue/4.0.3/jfugue-4.0.3.jar!/org/jfugue/Parser.class</url>
+          <line>221</line>
+          <option name="timeStamp" value="772" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://F:/Repository/maven_respository/jfugue/jfugue/4.0.3/jfugue-4.0.3.jar!/org/jfugue/MusicStringParser.class</url>
+          <line>1230</line>
+          <option name="timeStamp" value="773" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://F:/Repository/maven_respository/jfugue/jfugue/4.0.3/jfugue-4.0.3.jar!/org/jfugue/MusicStringParser.class</url>
+          <line>1245</line>
+          <option name="timeStamp" value="774" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://F:/Repository/maven_respository/jfugue/jfugue/4.0.3/jfugue-4.0.3.jar!/org/jfugue/Pattern.class</url>
+          <line>68</line>
+          <option name="timeStamp" value="784" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://F:/Repository/maven_respository/jfugue/jfugue/4.0.3/jfugue-4.0.3.jar!/org/jfugue/Player.class</url>
+          <line>117</line>
+          <option name="timeStamp" value="785" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://F:/Repository/maven_respository/jfugue/jfugue/4.0.3/jfugue-4.0.3.jar!/org/jfugue/Player.class</url>
+          <line>112</line>
+          <option name="timeStamp" value="786" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/feature/JDK9Demo.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="808" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/feature/JDK9Demo.java</url>
+          <line>70</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="810" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/Java/jre/lib/rt.jar!/com/sun/media/sound/RealTimeSequencer.class</url>
+          <line>1429</line>
+          <option name="timeStamp" value="819" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://F:/Repository/maven_respository/jfugue/jfugue/5.0.9/jfugue-5.0.9.jar!/org/jfugue/player/ManagedPlayer.class</url>
+          <line>117</line>
+          <option name="timeStamp" value="824" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://F:/Repository/maven_respository/jfugue/jfugue/5.0.9/jfugue-5.0.9.jar!/org/jfugue/player/ManagedPlayer.class</url>
+          <line>47</line>
+          <option name="timeStamp" value="825" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://F:/Repository/maven_respository/jfugue/jfugue/5.0.9/jfugue-5.0.9.jar!/org/jfugue/player/ManagedPlayer.class</url>
+          <line>49</line>
+          <option name="timeStamp" value="826" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/Java/jre/lib/rt.jar!/com/sun/media/sound/RealTimeSequencer.class</url>
+          <line>112</line>
+          <option name="timeStamp" value="828" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://E:/jdk_17.0.4/lib/src.zip!/java.desktop/com/sun/media/sound/RealTimeSequencer.java</url>
+          <line>822</line>
+          <option name="timeStamp" value="829" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://E:/jdk_17.0.4/lib/src.zip!/java.desktop/com/sun/media/sound/RealTimeSequencer.java</url>
+          <line>1211</line>
+          <option name="timeStamp" value="830" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://E:/jdk_17.0.4/lib/src.zip!/java.base/java/util/HashMap.java</url>
+          <line>1089</line>
+          <option name="timeStamp" value="831" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/feature/JDK9Demo.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="833" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/feature/JDK9Demo.java</url>
+          <line>64</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="834" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/collection/HashMapDemo.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="840" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://E:/jdk_17.0.4/lib/src.zip!/java.base/java/util/HashMap.java</url>
+          <line>1119</line>
+          <option name="timeStamp" value="846" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/Program Files/Java/Java/src.zip!/java/util/HashMap.java</url>
+          <line>1013</line>
+          <option name="timeStamp" value="847" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://E:/jdk_17.0.4/lib/src.zip!/java.base/java/util/HashMap.java</url>
+          <line>1101</line>
+          <option name="timeStamp" value="848" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/CommonSolution/src/test/java/com/dev/wizard/ManyImplementsTest.java</url>
+          <line>26</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="852" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <condition expression="&quot;线程一&quot;.equals(Thread.currentThread().getName()) || &quot;线程二&quot;.equals(Thread.currentThread().getName())" language="JAVA" />
+          <url>jar://E:/jdk_17.0.4/lib/src.zip!/java.base/java/util/HashMap.java</url>
+          <line>624</line>
+          <option name="timeStamp" value="859" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/collection/HashMapThreadSecurity.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="861" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <condition expression="&quot;线程一&quot;.equals(Thread.currentThread().getName()) || &quot;线程二&quot;.equals(Thread.currentThread().getName())" language="JAVA" />
+          <url>jar://E:/jdk_17.0.4/lib/src.zip!/java.base/java/util/HashMap.java</url>
+          <line>703</line>
+          <option name="timeStamp" value="862" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/collection/HashMapThreadSecurity.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="865" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="&quot;beanA&quot;.equals(name)" language="JAVA" />
+          <url>jar://F:/Repository/maven_respository/org/springframework/spring-beans/5.3.15/spring-beans-5.3.15-sources.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.java</url>
+          <line>251</line>
+          <option name="timeStamp" value="871" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="&quot;beanA&quot;.equals(beanName)" language="JAVA" />
+          <url>jar://F:/Repository/maven_respository/org/springframework/spring-beans/5.3.15/spring-beans-5.3.15-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java</url>
+          <line>1795</line>
+          <option name="timeStamp" value="888" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://F:/Repository/maven_respository/org/springframework/spring-beans/5.3.15/spring-beans-5.3.15-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java</url>
-          <line>618</line>
-          <option name="timeStamp" value="688" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://F:/Repository/maven_respository/org/springframework/spring-beans/5.3.15/spring-beans-5.3.15-sources.jar!/org/springframework/beans/factory/annotation/AutowiredAnnotationBeanPostProcessor.java</url>
-          <line>396</line>
-          <option name="timeStamp" value="690" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://F:/Repository/maven_respository/org/springframework/spring-beans/5.3.15/spring-beans-5.3.15-sources.jar!/org/springframework/beans/factory/annotation/AutowiredAnnotationBeanPostProcessor.java</url>
-          <line>445</line>
-          <option name="timeStamp" value="691" />
+          <line>438</line>
+          <option name="timeStamp" value="889" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.NullPointerException" package="java.lang" />
           <option name="timeStamp" value="626" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://C:/Program Files/Java/Java/src.zip!/javax/sound/midi/Sequencer.java</url>
+          <line>147</line>
+          <properties class="javax.sound.midi.Sequencer" method="start">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="827" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo parentTag="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor" memberName="logger" />
+        <PinnedItemInfo parentTag="java.util.LinkedHashSet" memberName="map" />
         <PinnedItemInfo parentTag="org.springframework.aop.interceptor.AsyncExecutionAspectSupport$$Lambda$335.481792876" memberName="arg$1" />
-        <PinnedItemInfo parentTag="java.util.HashMap$Node" memberName="next" />
         <PinnedItemInfo parentTag="java.lang.Class$AnnotationData" memberName="annotations" />
+        <PinnedItemInfo parentTag="javax.sound.midi.Sequence" memberName="tracks" />
         <PinnedItemInfo parentTag="java.util.HashMap" memberName="entrySet" />
+        <PinnedItemInfo parentTag="org.springframework.beans.factory.annotation.InjectionMetadata" memberName="injectedElements" />
       </pinned-members>
     </pin-to-top-manager>
     <watches-manager>
       <configuration name="Application">
+        <watch expression="value" />
         <watch expression="value" />
       </configuration>
     </watches-manager>
