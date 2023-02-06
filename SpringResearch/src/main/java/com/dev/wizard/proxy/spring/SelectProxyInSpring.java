@@ -53,7 +53,7 @@ public class SelectProxyInSpring {
             return result;
         };
         //3.组合切点和通知形成切面
-        PointcutAdvisor advisor = new DefaultPointcutAdvisor( pointcut, interceptor);
+        PointcutAdvisor advisor = new DefaultPointcutAdvisor(pointcut, interceptor);
 
         //4.形成代理
         /**
@@ -67,7 +67,7 @@ public class SelectProxyInSpring {
 
         proxyFactory.setTarget(targetClass);
         proxyFactory.addAdvisor(advisor);
-        proxyFactory.setProxyTargetClass(false);
+        proxyFactory.setProxyTargetClass(true);
         proxyFactory.setInterfaces(targetClass.getClass().getInterfaces());
         TestInterface testInterface = (TestInterface) proxyFactory.getProxy();
         System.out.println(testInterface.getClass());

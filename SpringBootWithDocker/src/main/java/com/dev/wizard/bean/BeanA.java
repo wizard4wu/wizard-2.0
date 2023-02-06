@@ -13,8 +13,6 @@ import java.util.List;
 @Slf4j
 public class BeanA implements InitializingBean {
 
-    @Autowired
-    private BeanC beanC;
     public BeanA(){
        log.info("Constructor + BeanA");
     }

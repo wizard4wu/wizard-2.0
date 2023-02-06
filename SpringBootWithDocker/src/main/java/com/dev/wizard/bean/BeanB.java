@@ -11,7 +11,7 @@ public class BeanB {
     @Autowired
     private BeanC beanC;
 
-    @Lazy
+
     public BeanB(){
         log.info("Constructor + BeanB");
     }

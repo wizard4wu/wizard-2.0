@@ -14,5 +14,6 @@ public class BeanController {
     @RequestMapping("/test")
     public void test(){
         proxyBeanA.firstTargetMethod();
+        proxyBeanA.zeroTargetMethod();
     }
 }

@@ -1,9 +1,5 @@
 package com.dev.wizard.springboot.cyclebean;
 
-import com.dev.wizard.springboot.event.listen.SubscriberClass;
-import com.google.common.collect.Sets;
-import lombok.SneakyThrows;
-import org.apache.catalina.core.ApplicationContext;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.BeansException;
@@ -11,32 +7,26 @@ import org.springframework.beans.PropertyValues;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.config.BeanPostProcessor;
-import org.springframework.beans.factory.config.InstantiationAwareBeanPostProcessor;
-import org.springframework.cglib.core.ReflectUtils;
-import org.springframework.core.annotation.AnnotationUtils;
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.PostConstruct;
-import java.lang.reflect.InvocationTargetException;
 import java.util.Arrays;
-import java.util.Set;
 
 @Service
-public class BeanF implements BeanPostProcessor {
+public class BeanPostProcessorBeanF implements BeanPostProcessor {
 
 
     @Autowired
     BeanFactory beanFactory;
-    private static final Logger log = LoggerFactory.getLogger(BeanF.class);
+    private static final Logger log = LoggerFactory.getLogger(BeanPostProcessorBeanF.class);
 
     public Object postProcessBeforeInstantiation(Class<?> beanClass, String beanName) throws BeansException {
         log.info("postProcessBeforeInstantiation + " + beanName);
         return null;
     }
 
-    public BeanF(){
-        log.info("beanF + Constructor");
+    public BeanPostProcessorBeanF(){
+        log.info("BeanPostProcessorBeanF + Constructor");
     }
 
     public boolean postProcessAfterInstantiation(Object bean, String beanName) throws BeansException {
@@ -70,9 +60,7 @@ public class BeanF implements BeanPostProcessor {
                     Object obj = beanFactory.getBean("beanC");
                     try {
                         method.invoke(obj, null);
-                    } catch (IllegalAccessException e) {
-                        throw new RuntimeException(e);
-                    } catch (InvocationTargetException e) {
+                    } catch (Exception e) {
                         throw new RuntimeException(e);
                     }
                 });

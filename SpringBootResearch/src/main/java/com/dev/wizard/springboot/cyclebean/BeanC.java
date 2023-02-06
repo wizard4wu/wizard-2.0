@@ -12,21 +12,15 @@ import javax.annotation.PostConstruct;
 @Service
 @Slf4j
 public class BeanC{
-
-    @Autowired
-    private BeanB beanB;
-
+//    @Autowired
+//    private BeanA beanA;
 
     public BeanC(){
         log.info("BeanC 构造函数");
     }
 
-    @PostConstruct
-    public void init(){
-        log.info("BeanC init()");
-    }
-    @TestAnno
-    public void test(){
-        beanB.test();
-    }
+//    @TestAnno
+//    public void test(){
+//        beanA.test();
+//    }
 }

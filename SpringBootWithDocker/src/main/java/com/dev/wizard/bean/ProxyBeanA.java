@@ -1,6 +1,7 @@
 package com.dev.wizard.bean;
 
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.PostConstruct;
@@ -8,6 +9,12 @@ import javax.annotation.PostConstruct;
 @Service
 @Slf4j
 public class ProxyBeanA {
+
+    @Autowired
+    private ProxyBeanB proxyBeanB;
+
+    @Autowired
+    private BeanD beanD;
 
     public ProxyBeanA(){
         log.info("ProxyBeanA + constructor");
@@ -20,5 +27,9 @@ public class ProxyBeanA {
 
     public void firstTargetMethod(){
         log.info("ProxyBeanA + firstTargetMethod");
+    }
+
+    public void zeroTargetMethod(){
+        log.info("ProxyBeanA + zeroTargetMethod");
     }
 }

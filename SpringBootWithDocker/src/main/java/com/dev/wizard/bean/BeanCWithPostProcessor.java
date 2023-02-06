@@ -8,18 +8,20 @@ import org.springframework.beans.factory.config.InstantiationAwareBeanPostProces
 import org.springframework.beans.factory.config.SmartInstantiationAwareBeanPostProcessor;
 import org.springframework.beans.factory.support.AbstractBeanFactory;
 import org.springframework.beans.factory.support.MergedBeanDefinitionPostProcessor;
+import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
 @Service
 @Slf4j
+@Order
 public class BeanCWithPostProcessor implements InstantiationAwareBeanPostProcessor, BeanPostProcessor {
-    private static final Set<String> BEAN_SET = Set.of("beanA", "beanB", "beanC", "beanCWithPostProcessor", "proxyBeanA", "beanD", "beanConfiguration");
+    private static final Set<String> BEAN_SET = Set.of("beanA", "beanB", "beanC", "beanCWithPostProcessor", "proxyBeanA", "proxyBeanB", "beanD", "beanConfiguration");
 
     public Object postProcessBeforeInstantiation(Class<?> beanClass, String beanName) throws BeansException {
         if (BEAN_SET.contains(beanName)) {
-            log.info("BeanCWithPostProcessor + postProcessBeforeInstantiation + " + beanName);
+            log.info("BeanCWithPostProcessor + postProcessBeforeInstantiation, BeanName: {}", beanName);
         }
         return null;
     }
@@ -30,7 +32,7 @@ public class BeanCWithPostProcessor implements InstantiationAwareBeanPostProcess
 
     public boolean postProcessAfterInstantiation(Object bean, String beanName) throws BeansException {
         if (BEAN_SET.contains(beanName)) {
-            log.info("BeanCWithPostProcessor + postProcessAfterInstantiation + " + beanName);
+            log.info("BeanCWithPostProcessor + postProcessAfterInstantiation, BeanName: {}, bean: {} ", beanName, bean);
         }
         return true;
     }
@@ -38,7 +40,7 @@ public class BeanCWithPostProcessor implements InstantiationAwareBeanPostProcess
 
     public Object postProcessBeforeInitialization(Object bean, String beanName) throws BeansException {
         if (BEAN_SET.contains(beanName)) {
-            log.info("BeanCWithPostProcessor + Before + " + beanName);
+            log.info("BeanCWithPostProcessor + Before, BeanName: {}, bean: {}", beanName, bean);
         }
         return bean;
     }
@@ -46,7 +48,7 @@ public class BeanCWithPostProcessor implements InstantiationAwareBeanPostProcess
 
     public Object postProcessAfterInitialization(Object bean, String beanName) throws BeansException {
         if (BEAN_SET.contains(beanName)) {
-            log.info("BeanCWithPostProcessor + After + " + beanName);
+            log.info("BeanCWithPostProcessor + After, BeanName: {}, bean: {} ", beanName, bean);
         }
         return bean;
     }

@@ -10,10 +10,6 @@ import javax.annotation.PostConstruct;
 @Slf4j
 public class BeanD {
 
-
-    @Autowired
-    private BeanE beanE;
-
     public BeanD(){
         log.info("BeanD 构造函数");
     }
@@ -23,7 +19,7 @@ public class BeanD {
         log.info("BeanD init()");
     }
 
-    @TestAnno
+
     public void testMethodBeanD(){
         log.info("BeanD testMethodBeanD");
     }

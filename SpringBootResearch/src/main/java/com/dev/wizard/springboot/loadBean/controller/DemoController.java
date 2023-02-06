@@ -2,7 +2,6 @@ package com.dev.wizard.springboot.loadBean.controller;
 
 import com.dev.wizard.springboot.loadBean.service.OrderService;
 
-import jdk.internal.reflect.MethodAccessor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -57,17 +56,17 @@ public class DemoController {
 
     public static void printProxyMethod(TestClass testClass, Method testMethod){
         IntStream.range(0, 18).forEach(index -> {
-            try {
-                testMethod.invoke(testClass, "Hello");
-                Field field = testMethod.getClass().getDeclaredField("methodAccessor");
-                field.setAccessible(true);
-                MethodAccessor f = (MethodAccessor) field.get(testMethod);
-                Field field1 = f.getClass().getDeclaredField("delegate");
-                field1.setAccessible(true);
-                System.out.println(field1.get(f).toString() + "---" + index);
-            } catch (Exception e ) {
-                e.printStackTrace();
-            }
+//            try {
+//                testMethod.invoke(testClass, "Hello");
+//                Field field = testMethod.getClass().getDeclaredField("methodAccessor");
+//                field.setAccessible(true);
+//                MethodAccessor f = (MethodAccessor) field.get(testMethod);
+//                Field field1 = f.getClass().getDeclaredField("delegate");
+//                field1.setAccessible(true);
+//                System.out.println(field1.get(f).toString() + "---" + index);
+//            } catch (Exception e ) {
+//                e.printStackTrace();
+//            }
         });
     }
 }

@@ -23,7 +23,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.6.3</version>
+        <version>2.6.7</version>
         <!--        <version>1.5.3.RELEASE</version>-->
         <relativePath/>
     </parent>
@@ -63,7 +63,7 @@
             <dependency>
                 <groupId>jfugue</groupId>
                 <artifactId>jfugue</artifactId>
-                <version>5.0.9</version>
+                <version>4.0.3</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework.boot</groupId>
