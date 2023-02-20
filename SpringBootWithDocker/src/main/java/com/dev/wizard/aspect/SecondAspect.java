@@ -22,19 +22,4 @@ public class SecondAspect {
     public void secondAspectMethod(){
         log.info("SecondAspect + secondAspectMethod");
     }
-
-
-    public static void main(String[] args) {
-        List<String> abc = List.of("hello", "world", "helloww");
-        abc.stream().filter(s -> {
-            System.out.println(s);
-            return s.startsWith("h");
-        }).map(s -> {
-            System.out.println("ddd");
-            return  s;
-        }).anyMatch("hello"::equals);
-
-
-
-    }
 }

@@ -5,46 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8d5fa4c-da11-4a92-8f6e-931b9a44ec3f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/collection/ArrayListDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/concurrent/ExposeLocalReference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/concurrent/VolatileDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/object/MultiExtendsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/aspect/SecondAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/bean/ProxyBeanB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringResearch/src/main/java/com/dev/wizard/proxy/spring/AspectTransferDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringResearch/src/main/java/com/dev/wizard/proxy/spring/DynamicProxyDesign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringResearch/src/main/java/com/dev/wizard/proxy/spring/PointCutExpressionDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringResearch/src/main/java/com/dev/wizard/proxy/spring/expression/ExpressionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/collection/ListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringResearch/src/main/java/com/dev/wizard/proxy/spring/ProxyFactoryDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonSolution/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CommonSolution/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/music/CangHaiYiShengXiao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/music/Canon.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/music/Midi2JFugueMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/music/MusicDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/music/QiFengLeDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/music/TenYears.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/music/canon.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBootResearch/src/main/java/com/dev/wizard/springboot/cyclebean/BeanA.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootResearch/src/main/java/com/dev/wizard/springboot/cyclebean/BeanA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBootResearch/src/main/java/com/dev/wizard/springboot/cyclebean/BeanB.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootResearch/src/main/java/com/dev/wizard/springboot/cyclebean/BeanB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBootResearch/src/main/java/com/dev/wizard/springboot/cyclebean/BeanC.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootResearch/src/main/java/com/dev/wizard/springboot/cyclebean/BeanC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBootResearch/src/main/java/com/dev/wizard/springboot/cyclebean/BeanD.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootResearch/src/main/java/com/dev/wizard/springboot/cyclebean/BeanD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBootResearch/src/main/java/com/dev/wizard/springboot/cyclebean/BeanF.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootResearch/src/main/java/com/dev/wizard/springboot/cyclebean/BeanPostProcessorBeanF.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBootResearch/src/main/java/com/dev/wizard/springboot/loadBean/controller/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootResearch/src/main/java/com/dev/wizard/springboot/loadBean/controller/DemoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/SpringBootWithDockerStarter.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/SpringBootWithDockerStarter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/bean/BeanA.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/bean/BeanA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/bean/BeanB.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/bean/BeanB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/bean/BeanC.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/bean/BeanC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/bean/BeanCWithPostProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/bean/BeanCWithPostProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/bean/MyAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/aspect/MyAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/bean/ProxyBeanA.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/bean/ProxyBeanA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/controller/BeanController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/controller/BeanController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBootWithDocker/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootWithDocker/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBootWithDocker/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootWithDocker/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringResearch/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringResearch/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringResearch/src/main/java/com/dev/wizard/proxy/jdk/TestMethodInvoke.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringResearch/src/main/java/com/dev/wizard/proxy/jdk/TestMethodInvoke.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/aspect/SecondAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/aspect/SecondAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringResearch/src/main/java/com/dev/wizard/proxy/cglib/CglibProxyDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringResearch/src/main/java/com/dev/wizard/proxy/cglib/CglibProxyDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringResearch/src/main/java/com/dev/wizard/proxy/spring/AspectTransferDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringResearch/src/main/java/com/dev/wizard/proxy/spring/AspectTransferDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringResearch/src/main/java/com/dev/wizard/proxy/spring/SelectProxyInSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringResearch/src/main/java/com/dev/wizard/proxy/spring/SelectProxyInSpring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringResearch/tomcat.7077/work/Tomcat/localhost/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -221,20 +188,7 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.ExposeLocalReference">
-    <configuration name="ArrayListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dev.wizard.collection.ArrayListDemo" />
-      <module name="CommonSolution" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dev.wizard.collection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ProxyFactoryDemo">
     <configuration name="AspectTransferDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dev.wizard.proxy.spring.AspectTransferDemo" />
       <module name="SpringResearch" />
@@ -248,8 +202,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DynamicProxyDesign" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dev.wizard.proxy.spring.DynamicProxyDesign" />
+    <configuration name="ListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dev.wizard.collection.ListDemo" />
+      <module name="CommonSolution" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dev.wizard.collection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProxyFactoryDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dev.wizard.proxy.spring.ProxyFactoryDemo" />
       <module name="SpringResearch" />
       <extension name="coverage">
         <pattern>
@@ -261,25 +228,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExposeLocalReference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dev.wizard.concurrent.ExposeLocalReference" />
-      <module name="CommonSolution" />
+    <configuration name="SelectProxyInSpring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dev.wizard.proxy.spring.SelectProxyInSpring" />
+      <module name="SpringResearch" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dev.wizard.concurrent.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpringBootStarter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dev.wizard.SpringBootStarter" />
-      <module name="SpringBootResearch" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dev.wizard.*" />
+          <option name="PATTERN" value="com.dev.wizard.proxy.spring.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -366,10 +320,9 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.DynamicProxyDesign" />
-      <item itemvalue="Application.ArrayListDemo" />
-      <item itemvalue="Application.ExposeLocalReference" />
-      <item itemvalue="Application.SpringBootStarter" />
+      <item itemvalue="Application.ListDemo" />
+      <item itemvalue="Application.ProxyFactoryDemo" />
+      <item itemvalue="Application.SelectProxyInSpring" />
       <item itemvalue="Application.AspectTransferDemo" />
       <item itemvalue="Application.SpringBootWithDockerStarter" />
       <item itemvalue="Docker.DemoAppDocker" />
@@ -378,11 +331,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ExposeLocalReference" />
-        <item itemvalue="Application.ArrayListDemo" />
-        <item itemvalue="Application.SpringBootStarter" />
         <item itemvalue="Application.AspectTransferDemo" />
+        <item itemvalue="Application.ProxyFactoryDemo" />
         <item itemvalue="Application.SpringBootWithDockerStarter" />
+        <item itemvalue="Application.ListDemo" />
+        <item itemvalue="Application.SelectProxyInSpring" />
       </list>
     </recent_temporary>
   </component>
@@ -851,7 +804,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/SpringResearch/src/main/java/com/dev/wizard/proxy/cglib/CglibProxyDemo.java</url>
-          <line>34</line>
+          <line>33</line>
           <option name="timeStamp" value="412" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -906,7 +859,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/SpringResearch/src/main/java/com/dev/wizard/proxy/cglib/CglibProxyDemo.java</url>
-          <line>57</line>
+          <line>45</line>
           <option name="timeStamp" value="549" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -1115,11 +1068,6 @@
           <option name="timeStamp" value="1113" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/bean/ProxyBeanA.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="1115" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>jar://F:/Repository/maven_respository/org/springframework/spring-aop/5.3.15/spring-aop-5.3.15-sources.jar!/org/springframework/aop/framework/CglibAopProxy.java</url>
           <line>667</line>
           <option name="timeStamp" value="1119" />
@@ -1163,11 +1111,6 @@
           <url>jar://F:/Repository/maven_respository/org/springframework/spring-aop/5.3.15/spring-aop-5.3.15-sources.jar!/org/springframework/aop/framework/ReflectiveMethodInvocation.java</url>
           <line>162</line>
           <option name="timeStamp" value="1134" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/bean/ProxyBeanB.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1136" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://F:/Repository/maven_respository/org/springframework/spring-aop/5.3.19/spring-aop-5.3.19.jar!/org/springframework/aop/framework/adapter/MethodBeforeAdviceInterceptor.class</url>
@@ -1234,6 +1177,72 @@
           <line>28</line>
           <option name="timeStamp" value="1173" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/bean/ProxyBeanA.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="1174" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/bean/ProxyBeanA.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="1175" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="beanName.equals(&quot;proxyBeanA&quot;)" language="JAVA" />
+          <url>jar://F:/Repository/maven_respository/org/springframework/spring-aop/5.3.19/spring-aop-5.3.19-sources.jar!/org/springframework/aop/framework/autoproxy/AbstractAutoProxyCreator.java</url>
+          <line>340</line>
+          <option name="timeStamp" value="1185" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://F:/Repository/maven_respository/org/springframework/spring-aop/5.3.19/spring-aop-5.3.19-sources.jar!/org/springframework/aop/framework/adapter/AfterReturningAdviceAdapter.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="1192" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://F:/Repository/maven_respository/org/springframework/spring-aop/5.3.19/spring-aop-5.3.19-sources.jar!/org/springframework/aop/framework/autoproxy/AbstractAutoProxyCreator.java</url>
+          <line>464</line>
+          <option name="timeStamp" value="1195" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://F:/Repository/maven_respository/org/springframework/spring-aop/5.3.19/spring-aop-5.3.19-sources.jar!/org/springframework/aop/framework/ReflectiveMethodInvocation.java</url>
+          <line>161</line>
+          <option name="timeStamp" value="1198" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SpringResearch/src/main/java/com/dev/wizard/proxy/spring/ProxyFactoryDemo.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="1212" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://F:/Repository/maven_respository/org/springframework/spring-aop/5.3.19/spring-aop-5.3.19-sources.jar!/org/springframework/aop/framework/CglibAopProxy.java</url>
+          <line>220</line>
+          <option name="timeStamp" value="1215" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://F:/Repository/maven_respository/org/springframework/spring-aop/5.3.19/spring-aop-5.3.19-sources.jar!/org/springframework/aop/framework/CglibAopProxy.java</url>
+          <line>680</line>
+          <option name="timeStamp" value="1229" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SpringResearch/src/main/java/com/dev/wizard/proxy/spring/ProxyFactoryDemo.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="1232" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://F:/Repository/maven_respository/org/springframework/spring-aop/5.3.19/spring-aop-5.3.19-sources.jar!/org/springframework/aop/framework/CglibAopProxy.java</url>
+          <line>755</line>
+          <option name="timeStamp" value="1237" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SpringResearch/src/main/java/com/dev/wizard/proxy/spring/ProxyFactoryDemo.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="1238" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://F:/Repository/maven_respository/org/springframework/spring-aop/5.3.19/spring-aop-5.3.19-sources.jar!/org/springframework/aop/framework/CglibAopProxy.java</url>
+          <line>762</line>
+          <option name="timeStamp" value="1239" />
+        </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.NullPointerException" package="java.lang" />
           <option name="timeStamp" value="626" />
@@ -1256,9 +1265,11 @@
         <PinnedItemInfo parentTag="org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator$BeanFactoryAspectJAdvisorsBuilderAdapter" memberName="aspectBeanNames" />
         <PinnedItemInfo parentTag="org.springframework.aop.interceptor.AsyncExecutionAspectSupport$$Lambda$335.481792876" memberName="arg$1" />
         <PinnedItemInfo parentTag="java.lang.Class$AnnotationData" memberName="annotations" />
+        <PinnedItemInfo parentTag="java.lang.Class" memberName="annotationData" />
         <PinnedItemInfo parentTag="javax.sound.midi.Sequence" memberName="tracks" />
         <PinnedItemInfo parentTag="java.util.ArrayList$Itr" memberName="lastRet" />
         <PinnedItemInfo parentTag="java.util.HashMap" memberName="entrySet" />
+        <PinnedItemInfo parentTag="com.dev.wizard.proxy.spring.ProxyFactoryDemo$Target$$EnhancerBySpringCGLIB$$a06699fc" memberName="CGLIB$BOUND" />
         <PinnedItemInfo parentTag="org.springframework.beans.factory.annotation.InjectionMetadata" memberName="injectedElements" />
         <PinnedItemInfo parentTag="org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation" memberName="method" />
       </pinned-members>
@@ -1267,6 +1278,7 @@
       <configuration name="Application">
         <watch expression="value" />
         <watch expression="value" />
+        <watch expression="targetClass" />
       </configuration>
     </watches-manager>
   </component>

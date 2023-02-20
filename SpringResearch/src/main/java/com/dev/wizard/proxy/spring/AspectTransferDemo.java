@@ -101,8 +101,9 @@ public class AspectTransferDemo extends ReflectiveMethodInvocation{
         ProxyFactory proxyFactory = new ProxyFactory();
         Target target = new Target();
         proxyFactory.setTarget(target);
+        proxyFactory.setInterfaces(TargetInterface.class);
         //将调用链MethodInvocation放入当前线程
-        proxyFactory.addAdvice(ExposeInvocationInterceptor.INSTANCE);
+        //proxyFactory.addAdvice(ExposeInvocationInterceptor.INSTANCE);
         proxyFactory.addAdvisors(advisorList);
 
         Method firstTargetMethod = Target.class.getMethod("firstTargetMethod");
@@ -117,7 +118,6 @@ public class AspectTransferDemo extends ReflectiveMethodInvocation{
         System.out.println("-----------分割线--------------------");
         MethodInvocation methodInvocation = new AspectTransferDemo(null, target, firstTargetMethod, new Object[0], target.getClass(), list);
         methodInvocation.proceed();
-
     }
 
     public static class MyAspect {
@@ -137,9 +137,13 @@ public class AspectTransferDemo extends ReflectiveMethodInvocation{
         }
     }
 
-    public static class Target {
+    public static class Target implements TargetInterface{
         public void firstTargetMethod() {
             System.out.println("Target + firstTargetMethod");
         }
+    }
+
+    public interface TargetInterface{
+        void firstTargetMethod();
     }
 }
