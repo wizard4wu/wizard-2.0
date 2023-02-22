@@ -103,7 +103,7 @@ public class AspectTransferDemo extends ReflectiveMethodInvocation{
         proxyFactory.setTarget(target);
         proxyFactory.setInterfaces(TargetInterface.class);
         //将调用链MethodInvocation放入当前线程
-        //proxyFactory.addAdvice(ExposeInvocationInterceptor.INSTANCE);
+        proxyFactory.addAdvice(ExposeInvocationInterceptor.INSTANCE);
         proxyFactory.addAdvisors(advisorList);
 
         Method firstTargetMethod = Target.class.getMethod("firstTargetMethod");

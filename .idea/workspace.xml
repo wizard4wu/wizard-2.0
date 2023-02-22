@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8d5fa4c-da11-4a92-8f6e-931b9a44ec3f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/collection/ListDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringResearch/src/main/java/com/dev/wizard/proxy/spring/ProxyFactoryDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringResearch/src/main/java/com/dev/wizard/proxy/spring/MyInvocationDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/aspect/SecondAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/aspect/SecondAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringResearch/src/main/java/com/dev/wizard/proxy/cglib/CglibProxyDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringResearch/src/main/java/com/dev/wizard/proxy/cglib/CglibProxyDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringResearch/src/main/java/com/dev/wizard/proxy/spring/AspectTransferDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringResearch/src/main/java/com/dev/wizard/proxy/spring/AspectTransferDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringResearch/src/main/java/com/dev/wizard/proxy/spring/SelectProxyInSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringResearch/src/main/java/com/dev/wizard/proxy/spring/SelectProxyInSpring.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,7 +184,7 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.ProxyFactoryDemo">
+  <component name="RunManager" selected="Application.SpringBootWithDockerStarter">
     <configuration name="AspectTransferDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dev.wizard.proxy.spring.AspectTransferDemo" />
       <module name="SpringResearch" />
@@ -215,8 +211,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProxyFactoryDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dev.wizard.proxy.spring.ProxyFactoryDemo" />
+    <configuration name="MyInvocationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dev.wizard.proxy.spring.MyInvocationDemo" />
       <module name="SpringResearch" />
       <extension name="coverage">
         <pattern>
@@ -228,8 +224,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectProxyInSpring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dev.wizard.proxy.spring.SelectProxyInSpring" />
+    <configuration name="ProxyFactoryDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dev.wizard.proxy.spring.ProxyFactoryDemo" />
       <module name="SpringResearch" />
       <extension name="coverage">
         <pattern>
@@ -320,9 +316,9 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.MyInvocationDemo" />
       <item itemvalue="Application.ListDemo" />
       <item itemvalue="Application.ProxyFactoryDemo" />
-      <item itemvalue="Application.SelectProxyInSpring" />
       <item itemvalue="Application.AspectTransferDemo" />
       <item itemvalue="Application.SpringBootWithDockerStarter" />
       <item itemvalue="Docker.DemoAppDocker" />
@@ -331,11 +327,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AspectTransferDemo" />
-        <item itemvalue="Application.ProxyFactoryDemo" />
         <item itemvalue="Application.SpringBootWithDockerStarter" />
+        <item itemvalue="Application.AspectTransferDemo" />
+        <item itemvalue="Application.MyInvocationDemo" />
+        <item itemvalue="Application.ProxyFactoryDemo" />
         <item itemvalue="Application.ListDemo" />
-        <item itemvalue="Application.SelectProxyInSpring" />
       </list>
     </recent_temporary>
   </component>
@@ -808,11 +804,6 @@
           <option name="timeStamp" value="412" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/SpringResearch/src/main/java/com/dev/wizard/proxy/spring/SpringAOPDemo.java</url>
-          <line>68</line>
-          <option name="timeStamp" value="414" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>jar://F:/Repository/maven_respository/org/springframework/security/spring-security-core/5.6.1/spring-security-core-5.6.1-sources.jar!/org/springframework/security/context/DelegatingApplicationListener.java</url>
           <line>39</line>
           <option name="timeStamp" value="443" />
@@ -1242,6 +1233,51 @@
           <url>jar://F:/Repository/maven_respository/org/springframework/spring-aop/5.3.19/spring-aop-5.3.19-sources.jar!/org/springframework/aop/framework/CglibAopProxy.java</url>
           <line>762</line>
           <option name="timeStamp" value="1239" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SpringResearch/src/main/java/com/dev/wizard/proxy/spring/SpringAOPDemo.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="1240" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SpringResearch/src/main/java/com/dev/wizard/proxy/spring/AspectTransferDemo.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="1241" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://F:/Repository/maven_respository/org/springframework/spring-aop/5.3.19/spring-aop-5.3.19-sources.jar!/org/springframework/aop/aspectj/AspectJMethodBeforeAdvice.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="1243" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SpringResearch/src/main/java/com/dev/wizard/proxy/spring/MyInvocationDemo.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="1245" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://F:/Repository/maven_respository/org/springframework/spring-aop/5.3.19/spring-aop-5.3.19-sources.jar!/org/springframework/aop/interceptor/ExposeInvocationInterceptor.java</url>
+          <line>93</line>
+          <option name="timeStamp" value="1246" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://F:/Repository/maven_respository/org/springframework/spring-aop/5.3.19/spring-aop-5.3.19-sources.jar!/org/springframework/aop/framework/CglibAopProxy.java</url>
+          <line>200</line>
+          <option name="timeStamp" value="1249" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/bean/ProxyBeanA.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="1250" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://F:/Repository/maven_respository/org/springframework/spring-aop/5.3.19/spring-aop-5.3.19-sources.jar!/org/springframework/aop/framework/AdvisedSupport.java</url>
+          <line>468</line>
+          <option name="timeStamp" value="1251" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://F:/Repository/maven_respository/org/springframework/spring-aop/5.3.19/spring-aop-5.3.19-sources.jar!/org/springframework/aop/framework/DefaultAdvisorChainFactory.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="1252" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.NullPointerException" package="java.lang" />
