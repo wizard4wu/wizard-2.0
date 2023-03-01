@@ -3,6 +3,8 @@ package com.dev.wizard.controller;
 import com.dev.wizard.domain.CurrentUser;
 import com.dev.wizard.domain.Student;
 import com.dev.wizard.springboot.event.listen.CommonSpringEventType;
+import com.dev.wizard.springboot.event.listen.MyAsyncInterface;
+import com.dev.wizard.springboot.event.listen.MyFinalClass;
 import com.google.common.eventbus.Subscribe;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationEventPublisher;
@@ -17,6 +19,10 @@ public class SpringBootController {
 
     @Autowired
     private ApplicationEventPublisher applicationEventPublisher;
+    @Autowired
+    private MyAsyncInterface asyncWithoutInterface;
+    @Autowired
+    private MyFinalClass myFinalClass;
 
     @GetMapping("/event/test")
     public void eventTest() throws InterruptedException {
@@ -31,6 +37,10 @@ public class SpringBootController {
 //
 //        CommonSpringEventType.DogEvent dogEvent = new CommonSpringEventType.DogEvent(this, "Dog");
 //        applicationEventPublisher.publishEvent(dogEvent);
+
+        asyncWithoutInterface.asyncMethod();
+
+        //myFinalClass.finalClassMethod();
 
         Thread.sleep(3000);
         System.out.println("event publish finish");

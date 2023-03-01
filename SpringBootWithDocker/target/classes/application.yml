@@ -3,6 +3,8 @@ server:
 spring:
   main:
     allow-circular-references: true
+  aop:
+    proxy-target-class: true
 
 # spring default config
 spring.redis:

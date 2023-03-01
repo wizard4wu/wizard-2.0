@@ -40,7 +40,7 @@ public class ProxyFactoryDemo {
         pointcut.setExpression("execution(* firstTargetMethod())");
 
         AspectJExpressionPointcut pointcut2 = new AspectJExpressionPointcut();
-        pointcut2.setExpression("execution(* firstTargetMethod())");
+        pointcut2.setExpression("execution(* *Method())");
         //6.2 构建通知
         MethodInterceptor methodInterceptor = invocation -> {
             System.out.println("Before ....");
@@ -60,6 +60,7 @@ public class ProxyFactoryDemo {
         Advisor secondAdvisor = new DefaultPointcutAdvisor(pointcut2, methodInterceptor2);
         proxyFactory.addAdvisors(firstAdvisor, secondAdvisor);
 
+        proxyFactory.setExposeProxy(Boolean.TRUE);
         //7. 生成代理对象
         ProxyFactoryDemo.Target proxyObj = (ProxyFactoryDemo.Target)proxyFactory.getProxy();
         proxyObj.firstTargetMethod();
@@ -82,6 +83,10 @@ public class ProxyFactoryDemo {
         }
         public final void finalMethod(){
             System.out.println("finalMethod...");
+        }
+
+        public static void staticMethod(){
+            System.out.println("staticMethod...");
         }
     }
 }

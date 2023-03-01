@@ -10,6 +10,7 @@ public class MyInvocationDemo extends ReflectiveMethodInvocation {
 
 
     private int index;
+
     protected MyInvocationDemo(Object proxy, Object target, Method method, Object[] arguments, Class<?> targetClass, List<Object> interceptorsAndDynamicMethodMatchers) {
         super(proxy, target, method, arguments, targetClass, interceptorsAndDynamicMethodMatchers);
     }

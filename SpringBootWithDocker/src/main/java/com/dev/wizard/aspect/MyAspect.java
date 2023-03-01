@@ -2,31 +2,32 @@ package com.dev.wizard.aspect;
 
 
 import lombok.extern.slf4j.Slf4j;
-import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.After;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
 import org.aspectj.lang.annotation.Pointcut;
-import org.springframework.context.annotation.Configuration;
 import org.springframework.stereotype.Component;
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 
 @Aspect
 @Component
 @Slf4j
 public class MyAspect {
 
+
+
     private MyAspect(){
         log.info("MyAspect Construct");
     }
 
+    @After("execution(* zeroTargetMethod())")  //不生效
     @Before("execution(* firstTargetMethod())")   //生效
-    @After("execution(* zeroTargetMethod())")
     public void firstAspect(){
         log.info("MyAspect + firstAspect");
+    }
+
+    @Before("execution(* firstTargetMethod())")   //生效
+    public void afirstAspect(){
+        log.info("MyAspect + afirstAspect");
     }
 
     @After("execution(* firstTargetMethod())")
@@ -39,4 +40,8 @@ public class MyAspect {
         log.info("MyAspect + thirdAspect");
     }
 
+    @Pointcut("execution(* zeroTargetMethod())")
+    public void pointcutMethod(){
+        log.info("MyAspect + pointcutMethod");
+    }
 }

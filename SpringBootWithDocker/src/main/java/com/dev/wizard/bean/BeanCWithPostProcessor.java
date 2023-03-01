@@ -16,7 +16,7 @@ import java.util.Set;
 @Service
 @Slf4j
 @Order
-public class BeanCWithPostProcessor implements InstantiationAwareBeanPostProcessor, BeanPostProcessor {
+public class BeanCWithPostProcessor {
     private static final Set<String> BEAN_SET = Set.of("beanA", "beanB", "beanC", "beanCWithPostProcessor", "proxyBeanA", "proxyBeanB", "beanD", "beanConfiguration");
 
     public Object postProcessBeforeInstantiation(Class<?> beanClass, String beanName) throws BeansException {
