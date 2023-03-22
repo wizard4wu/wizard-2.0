@@ -23,15 +23,15 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="CommonSolution" options="-parameters" />
-      <module name="CustomRedis" options="-parameters" />
-      <module name="CustomSpringSecurity" options="-parameters" />
-      <module name="DataStructureAndAlgorithm" options="-parameters" />
+      <module name="CommonSolution" options="" />
+      <module name="CustomRedis" options="" />
+      <module name="CustomSpringSecurity" options="" />
+      <module name="DataStructureAndAlgorithm" options="" />
       <module name="SpringBootResearch" options="-parameters" />
-      <module name="SpringBootWithDocker" options="-parameters" />
-      <module name="SpringCloudDemo" options="-parameters" />
-      <module name="SpringResearch" options="-parameters" />
-      <module name="spring-embed-tomcat" options="-parameters" />
+      <module name="SpringBootWithDocker" options="" />
+      <module name="SpringCloudDemo" options="" />
+      <module name="SpringResearch" options="" />
+      <module name="spring-embed-tomcat" options="" />
     </option>
   </component>
 </project>

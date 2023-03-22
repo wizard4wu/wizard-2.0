@@ -4,15 +4,19 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
-@Slf4j
+
 @Service
-public class BeanB {
+@Slf4j
+public class BeanH {
 
     @Autowired
-    private MyInterface beanC;
+    @Lazy
+    private BeanG beanG;
 
-
-    public BeanB(){
-        log.info("Constructor + BeanB");
+    public BeanH(@Lazy BeanG beanG){
+        log.info("constructor + BeanH");
+    }
+    public void method(){
+       beanG.method();
     }
 }

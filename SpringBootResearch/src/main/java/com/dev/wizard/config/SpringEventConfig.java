@@ -22,7 +22,6 @@ import java.util.concurrent.TimeUnit;
  * 2. 在相应的方法上加@Async注解  并且在应用配置上加@EnableAsync
  */
 
-@Configuration
 public class SpringEventConfig {
 
 

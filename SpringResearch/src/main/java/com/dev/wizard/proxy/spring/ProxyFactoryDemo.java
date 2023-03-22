@@ -69,6 +69,9 @@ public class ProxyFactoryDemo {
 
 
     public static class Target {
+        public Target(){
+            System.out.println("Target + Constructor without parameter");
+        }
         public void firstTargetMethod() {
             System.out.println("Target + firstTargetMethod");
         }

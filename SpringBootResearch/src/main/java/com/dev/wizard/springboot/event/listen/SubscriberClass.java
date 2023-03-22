@@ -18,7 +18,6 @@ public class SubscriberClass implements ApplicationListener<CurrentUser> {
 
     private static final Logger log = LoggerFactory.getLogger(SubscriberClass.class);
     @Override
-    @Async
     public void onApplicationEvent(CurrentUser currentUser) {
         log.info("SubscriberClass + onApplicationEvent + " + currentUser.getName());
     }

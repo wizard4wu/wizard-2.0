@@ -17,7 +17,7 @@ public class SubscriberThirdClass implements ApplicationListener<Student> {
         System.out.println("SubscriberThirdClass .....");
     }
 
-    @Async
+
     @Override
     public void onApplicationEvent(Student student) {
         log.info("SubscriberThirdClass + onApplicationEvent + " + student.getName());

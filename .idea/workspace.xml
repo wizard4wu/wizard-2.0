@@ -5,22 +5,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8d5fa4c-da11-4a92-8f6e-931b9a44ec3f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/SpringBootResearch/src/main/java/com/dev/wizard/config/AsyncConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootResearch/src/main/java/com/dev/wizard/log/TrackingLogFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootResearch/src/main/java/com/dev/wizard/springboot/event/listen/MyAsyncInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootResearch/src/main/java/com/dev/wizard/springboot/event/listen/MyFinalClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/bean/MyInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringResearch/src/main/java/com/dev/wizard/proxy/spring/MyInvocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/lambda/Query.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/query/PageQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/query/PageQueryHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/query/PageResultPayload.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/query/QueryParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/query/instance/MyQueryDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/query/instance/MyQueryParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/query/instance/MyQueryPayload.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootResearch/src/main/java/com/dev/wizard/Constant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootResearch/src/main/java/com/dev/wizard/log/TraceUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootResearch/src/main/java/com/dev/wizard/log/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/MyConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/bean/BeanE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/bean/BeanF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/bean/BeanG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/bean/BeanH.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/bean/LazyBeanA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/bean/LazyBeanB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/controller/MyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/lambda/LambdaDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/lambda/LambdaDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/lambda/LambdaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/lambda/LambdaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootResearch/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootResearch/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootResearch/src/main/java/com/dev/wizard/SpringBootStarter.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootResearch/src/main/java/com/dev/wizard/SpringBootStarter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootResearch/src/main/java/com/dev/wizard/config/AsyncConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootResearch/src/main/java/com/dev/wizard/config/AsyncConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootResearch/src/main/java/com/dev/wizard/config/SpringEventConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootResearch/src/main/java/com/dev/wizard/config/SpringEventConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringBootResearch/src/main/java/com/dev/wizard/controller/SpringBootController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootResearch/src/main/java/com/dev/wizard/controller/SpringBootController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBootResearch/src/main/java/com/dev/wizard/springboot/event/listen/SpringEventConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootResearch/src/main/java/com/dev/wizard/config/SpringEventConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootResearch/src/main/java/com/dev/wizard/log/TrackingLogFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootResearch/src/main/java/com/dev/wizard/log/TrackingLogFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootResearch/src/main/java/com/dev/wizard/springboot/event/listen/MyAsyncInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootResearch/src/main/java/com/dev/wizard/springboot/event/listen/MyAsyncInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringBootResearch/src/main/java/com/dev/wizard/springboot/event/listen/SubscriberClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootResearch/src/main/java/com/dev/wizard/springboot/event/listen/SubscriberClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/aspect/MyAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/aspect/MyAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootResearch/src/main/java/com/dev/wizard/springboot/event/listen/SubscriberThirdClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootResearch/src/main/java/com/dev/wizard/springboot/event/listen/SubscriberThirdClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootResearch/src/main/resources/application-local.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootResearch/src/main/resources/application-local.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootResearch/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootResearch/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/SpringBootWithDockerStarter.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/SpringBootWithDockerStarter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/bean/BeanB.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/bean/BeanB.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/bean/BeanC.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/bean/BeanC.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/bean/BeanCWithPostProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/bean/BeanCWithPostProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBootWithDocker/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootWithDocker/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBootWithDocker/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootWithDocker/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringResearch/src/main/java/com/dev/wizard/proxy/spring/MyInvocationDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringResearch/src/main/java/com/dev/wizard/proxy/spring/MyInvocationDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/bean/MyInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/bean/MyInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/bean/ProxyBeanA.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/bean/ProxyBeanA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/controller/BeanController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/controller/BeanController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringBootWithDocker/target/classes/application.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/SpringResearch/src/main/java/com/dev/wizard/proxy/spring/ProxyFactoryDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringResearch/src/main/java/com/dev/wizard/proxy/spring/ProxyFactoryDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -153,11 +179,11 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8.0_291&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/jdk_17.0.4/bin&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;last_opened_file_path&quot;: &quot;G:/MyProject/wizard-2.0/SpringBootResearch/src/main/resources&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
   }
 }</component>
   <component name="RebelAgentSelection">
@@ -165,13 +191,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\MyProject\wizard-2.0\SpringBootResearch\src\main\resources" />
       <recent name="G:\MyProject\wizard-2.0\CommonSolution\src\main\java\com\dev\wizard\music" />
       <recent name="G:\MyProject\wizard-2.0\CustomSpringSecurity\src\main\java\com\wizard\security" />
-      <recent name="G:\MyProject\wizard-2.0\SpringBootResearch\src\main\resources" />
       <recent name="G:\MyProject\wizard-2.0\SpringBootResearch\docker" />
       <recent name="G:\MyProject\wizard-2.0\SpringResearch\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\MyProject\wizard-2.0\SpringBootResearch\src\main\resources\log" />
       <recent name="G:\MyProject\wizard-2.0\SpringBootResearch\src\main\resources" />
       <recent name="G:\MyProject\wizard-2.0\SpringBootResearch" />
     </key>
@@ -180,6 +207,7 @@
       <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.dev.wizard.bean" />
       <recent name="com.dev.wizard.proxy.agent" />
       <recent name="com.dev.wizard.check.duplicate.domain" />
       <recent name="com.dev.wizard.check.duplicate" />
@@ -192,12 +220,12 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.SpringBootWithDockerStarter">
-    <configuration name="AspectTransferDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dev.wizard.proxy.spring.AspectTransferDemo" />
-      <module name="SpringResearch" />
+    <configuration name="LazyBeanA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dev.wizard.bean.LazyBeanA" />
+      <module name="SpringBootWithDocker" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dev.wizard.proxy.spring.*" />
+          <option name="PATTERN" value="com.dev.wizard.bean.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -205,12 +233,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyInvocation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dev.wizard.proxy.spring.MyInvocation" />
-      <module name="SpringResearch" />
+    <configuration name="MyQueryDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dev.wizard.query.instance.MyQueryDemo" />
+      <module name="CommonSolution" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dev.wizard.proxy.spring.*" />
+          <option name="PATTERN" value="com.dev.wizard.query.instance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -247,6 +275,9 @@
     <configuration name="SpringBootWithDockerStarter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dev.wizard.SpringBootWithDockerStarter" />
       <module name="SpringBootWithDocker" />
+      <selectedOptions>
+        <option name="environmentVariables" visible="false" />
+      </selectedOptions>
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.dev.wizard.*" />
@@ -323,10 +354,10 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.MyInvocation" />
-      <item itemvalue="Application.SpringBootStarter" />
+      <item itemvalue="Application.MyQueryDemo" />
+      <item itemvalue="Application.LazyBeanA" />
       <item itemvalue="Application.ProxyFactoryDemo" />
-      <item itemvalue="Application.AspectTransferDemo" />
+      <item itemvalue="Application.SpringBootStarter" />
       <item itemvalue="Application.SpringBootWithDockerStarter" />
       <item itemvalue="Docker.DemoAppDocker" />
       <item itemvalue="Docker.SpringBootWithDocker" />
@@ -335,10 +366,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.SpringBootWithDockerStarter" />
-        <item itemvalue="Application.MyInvocation" />
-        <item itemvalue="Application.SpringBootStarter" />
+        <item itemvalue="Application.MyQueryDemo" />
+        <item itemvalue="Application.LazyBeanA" />
         <item itemvalue="Application.ProxyFactoryDemo" />
-        <item itemvalue="Application.AspectTransferDemo" />
+        <item itemvalue="Application.SpringBootStarter" />
       </list>
     </recent_temporary>
   </component>
@@ -901,11 +932,6 @@
           <option name="timeStamp" value="679" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/controller/BeanController.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="692" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/bean/BeanA.java</url>
           <line>20</line>
           <option name="timeStamp" value="737" />
@@ -1111,29 +1137,14 @@
           <option name="timeStamp" value="1134" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://F:/Repository/maven_respository/org/springframework/spring-aop/5.3.19/spring-aop-5.3.19.jar!/org/springframework/aop/framework/adapter/MethodBeforeAdviceInterceptor.class</url>
-          <line>25</line>
-          <option name="timeStamp" value="1140" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/SpringResearch/src/main/java/com/dev/wizard/proxy/spring/DynamicProxyDesign.java</url>
           <line>80</line>
           <option name="timeStamp" value="1142" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://F:/Repository/maven_respository/org/springframework/spring-aop/5.3.19/spring-aop-5.3.19-sources.jar!/org/springframework/aop/interceptor/ExposeInvocationInterceptor.java</url>
-          <line>72</line>
-          <option name="timeStamp" value="1143" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/SpringResearch/src/main/java/com/dev/wizard/proxy/spring/AspectTransferDemo.java</url>
           <line>125</line>
           <option name="timeStamp" value="1144" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/SpringBootResearch/src/main/java/com/dev/wizard/springboot/cyclebean/BeanA.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="1151" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://E:/jdk_17.0.4/lib/src.zip!/java.base/jdk/internal/util/Preconditions.java</url>
@@ -1146,29 +1157,9 @@
           <option name="timeStamp" value="1173" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/bean/ProxyBeanA.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="1174" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/bean/ProxyBeanA.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="1175" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>jar://F:/Repository/maven_respository/org/springframework/spring-aop/5.3.19/spring-aop-5.3.19-sources.jar!/org/springframework/aop/framework/adapter/AfterReturningAdviceAdapter.java</url>
           <line>43</line>
           <option name="timeStamp" value="1192" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://F:/Repository/maven_respository/org/springframework/spring-aop/5.3.19/spring-aop-5.3.19-sources.jar!/org/springframework/aop/framework/autoproxy/AbstractAutoProxyCreator.java</url>
-          <line>464</line>
-          <option name="timeStamp" value="1195" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://F:/Repository/maven_respository/org/springframework/spring-aop/5.3.19/spring-aop-5.3.19-sources.jar!/org/springframework/aop/framework/ReflectiveMethodInvocation.java</url>
-          <line>161</line>
-          <option name="timeStamp" value="1198" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/SpringResearch/src/main/java/com/dev/wizard/proxy/spring/ProxyFactoryDemo.java</url>
@@ -1182,18 +1173,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/SpringResearch/src/main/java/com/dev/wizard/proxy/spring/ProxyFactoryDemo.java</url>
-          <line>78</line>
+          <line>81</line>
           <option name="timeStamp" value="1232" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/SpringResearch/src/main/java/com/dev/wizard/proxy/spring/ProxyFactoryDemo.java</url>
           <line>66</line>
           <option name="timeStamp" value="1238" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://F:/Repository/maven_respository/org/springframework/spring-aop/5.3.19/spring-aop-5.3.19-sources.jar!/org/springframework/aop/framework/CglibAopProxy.java</url>
-          <line>762</line>
-          <option name="timeStamp" value="1239" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/SpringResearch/src/main/java/com/dev/wizard/proxy/spring/SpringAOPDemo.java</url>
@@ -1206,24 +1192,9 @@
           <option name="timeStamp" value="1241" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://F:/Repository/maven_respository/org/springframework/spring-aop/5.3.19/spring-aop-5.3.19-sources.jar!/org/springframework/aop/aspectj/AspectJMethodBeforeAdvice.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="1243" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/SpringResearch/src/main/java/com/dev/wizard/proxy/spring/MyInvocationDemo.java</url>
           <line>46</line>
           <option name="timeStamp" value="1245" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://F:/Repository/maven_respository/org/springframework/spring-aop/5.3.19/spring-aop-5.3.19-sources.jar!/org/springframework/aop/interceptor/ExposeInvocationInterceptor.java</url>
-          <line>93</line>
-          <option name="timeStamp" value="1246" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/bean/ProxyBeanA.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="1250" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/aspect/MyAspect.java</url>
@@ -1236,92 +1207,6 @@
           <option name="timeStamp" value="1273" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/bean/BeanCWithPostProcessor.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="1287" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <condition expression="&quot;myAspect&quot;.equals(beanName)" language="JAVA" />
-          <url>jar://F:/Repository/maven_respository/org/springframework/spring-aop/5.3.19/spring-aop-5.3.19-sources.jar!/org/springframework/aop/aspectj/annotation/BeanFactoryAspectJAdvisorsBuilder.java</url>
-          <line>99</line>
-          <option name="timeStamp" value="1290" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/bean/BeanC.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="1292" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://F:/Repository/maven_respository/org/springframework/spring-aop/5.3.19/spring-aop-5.3.19-sources.jar!/org/springframework/aop/interceptor/AsyncExecutionAspectSupport.java</url>
-          <line>238</line>
-          <option name="timeStamp" value="1312" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://F:/Repository/maven_respository/org/springframework/spring-aop/5.3.19/spring-aop-5.3.19-sources.jar!/org/springframework/aop/interceptor/AsyncExecutionInterceptor.java</url>
-          <line>102</line>
-          <option name="timeStamp" value="1313" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://F:/Repository/maven_respository/org/springframework/spring-aop/5.3.19/spring-aop-5.3.19-sources.jar!/org/springframework/aop/interceptor/AsyncExecutionAspectSupport.java</url>
-          <line>163</line>
-          <option name="timeStamp" value="1316" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://F:/Repository/maven_respository/org/springframework/spring-aop/5.3.19/spring-aop-5.3.19-sources.jar!/org/springframework/aop/interceptor/AsyncExecutionInterceptor.java</url>
-          <line>156</line>
-          <option name="timeStamp" value="1317" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://F:/Repository/maven_respository/org/springframework/spring-aop/5.3.19/spring-aop-5.3.19-sources.jar!/org/springframework/aop/interceptor/AsyncExecutionInterceptor.java</url>
-          <line>114</line>
-          <option name="timeStamp" value="1318" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://F:/Repository/maven_respository/org/springframework/spring-context/5.3.19/spring-context-5.3.19-sources.jar!/org/springframework/scheduling/annotation/AbstractAsyncConfiguration.java</url>
-          <line>83</line>
-          <option name="timeStamp" value="1319" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/SpringBootResearch/src/main/java/com/dev/wizard/config/AsyncConfig.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="1321" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://F:/Repository/maven_respository/org/springframework/spring-context/5.3.19/spring-context-5.3.19-sources.jar!/org/springframework/scheduling/annotation/AbstractAsyncConfiguration.java</url>
-          <line>74</line>
-          <option name="timeStamp" value="1332" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://F:/Repository/maven_respository/org/springframework/spring-core/5.3.19/spring-core-5.3.19-sources.jar!/org/springframework/util/function/SingletonSupplier.java</url>
-          <line>67</line>
-          <option name="timeStamp" value="1336" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://F:/Repository/maven_respository/org/springframework/spring-context/5.3.19/spring-context-5.3.19-sources.jar!/org/springframework/scheduling/annotation/AbstractAsyncConfiguration.java</url>
-          <line>78</line>
-          <option name="timeStamp" value="1338" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://F:/Repository/maven_respository/org/springframework/spring-context/5.3.19/spring-context-5.3.19-sources.jar!/org/springframework/scheduling/annotation/AbstractAsyncConfiguration.java</url>
-          <line>89</line>
-          <option name="timeStamp" value="1340" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://F:/Repository/maven_respository/org/springframework/spring-aop/5.3.19/spring-aop-5.3.19-sources.jar!/org/springframework/aop/interceptor/AsyncExecutionAspectSupport.java</url>
-          <line>232</line>
-          <option name="timeStamp" value="1341" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/SpringBootResearch/src/main/java/com/dev/wizard/springboot/event/listen/SubscriberClass.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="1343" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://F:/Repository/maven_respository/org/springframework/spring-aop/5.3.19/spring-aop-5.3.19-sources.jar!/org/springframework/aop/framework/ReflectiveMethodInvocation.java</url>
-          <line>162</line>
-          <option name="timeStamp" value="1344" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/SpringBootResearch/src/main/java/com/dev/wizard/springboot/event/listen/MyFinalClass.java</url>
           <line>16</line>
           <option name="timeStamp" value="1345" />
@@ -1332,24 +1217,135 @@
           <option name="timeStamp" value="1351" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://F:/Repository/maven_respository/org/springframework/spring-aop/5.3.19/spring-aop-5.3.19-sources.jar!/org/springframework/aop/framework/autoproxy/AbstractAutoProxyCreator.java</url>
-          <line>445</line>
-          <option name="timeStamp" value="1353" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://F:/Repository/maven_respository/org/springframework/spring-aop/5.3.19/spring-aop-5.3.19-sources.jar!/org/springframework/aop/framework/CglibAopProxy.java</url>
-          <line>181</line>
-          <option name="timeStamp" value="1355" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://F:/Repository/maven_respository/org/springframework/spring-aop/5.3.19/spring-aop-5.3.19-sources.jar!/org/springframework/aop/framework/CglibAopProxy.java</url>
-          <line>202</line>
-          <option name="timeStamp" value="1356" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/SpringResearch/src/main/java/com/dev/wizard/proxy/spring/MyInvocation.java</url>
           <line>43</line>
           <option name="timeStamp" value="1358" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/lambda/LambdaTest.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="1436" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/lambda/LambdaTest.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="1437" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/MyConfiguration.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1454" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://F:/Repository/maven_respository/org/springframework/spring-context/5.3.19/spring-context-5.3.19-sources.jar!/org/springframework/scheduling/annotation/AsyncAnnotationBeanPostProcessor.java</url>
+          <line>117</line>
+          <option name="timeStamp" value="1455" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SpringBootResearch/src/main/java/com/dev/wizard/springboot/event/listen/MyAsyncInterface.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="1460" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://F:/Repository/maven_respository/org/springframework/spring-aop/5.3.19/spring-aop-5.3.19-sources.jar!/org/springframework/aop/interceptor/AsyncExecutionAspectSupport.java</url>
+          <line>105</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="1466" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://F:/Repository/maven_respository/org/springframework/spring-aop/5.3.19/spring-aop-5.3.19-sources.jar!/org/springframework/aop/interceptor/AsyncExecutionAspectSupport.java</url>
+          <line>133</line>
+          <option name="timeStamp" value="1467" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SpringBootResearch/src/main/java/com/dev/wizard/config/SpringEventConfig.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="1478" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SpringBootResearch/src/main/java/com/dev/wizard/controller/SpringBootController.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="1488" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/bean/BeanE.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="1492" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/bean/BeanG.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="1518" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://F:/Repository/maven_respository/org/springframework/spring-beans/5.3.19/spring-beans-5.3.19-sources.jar!/org/springframework/beans/factory/annotation/InjectionMetadata.java</url>
+          <line>224</line>
+          <option name="timeStamp" value="1531" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="&quot;beanH&quot;.equals(beanName)" language="JAVA" />
+          <url>jar://F:/Repository/maven_respository/org/springframework/spring-beans/5.3.19/spring-beans-5.3.19-sources.jar!/org/springframework/beans/factory/annotation/AutowiredAnnotationBeanPostProcessor.java</url>
+          <line>626</line>
+          <option name="timeStamp" value="1536" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="&quot;beanH&quot;.equals(beanName)" language="JAVA" />
+          <url>jar://F:/Repository/maven_respository/org/springframework/spring-beans/5.3.19/spring-beans-5.3.19-sources.jar!/org/springframework/beans/factory/support/ConstructorResolver.java</url>
+          <line>878</line>
+          <option name="timeStamp" value="1542" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/bean/LazyBeanA.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="1549" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/bean/LazyBeanB.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="1550" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/bean/LazyBeanA.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="1551" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/controller/BeanController.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="1552" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/controller/MyController.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="1562" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/query/instance/MyQueryDemo.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="1564" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/CommonSolution/src/main/java/com/dev/wizard/query/PageQueryHelper.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="1567" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SpringBootWithDocker/src/main/java/com/dev/wizard/bean/ProxyBeanA.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="1568" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://F:/Repository/maven_respository/org/springframework/spring-aop/5.3.19/spring-aop-5.3.19-sources.jar!/org/springframework/aop/aspectj/annotation/AnnotationAwareAspectJAutoProxyCreator.java</url>
+          <line>73</line>
+          <option name="timeStamp" value="1571" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="beanName.contains(&quot;internalAutoProxy&quot;)" language="JAVA" />
+          <url>jar://F:/Repository/maven_respository/org/springframework/spring-beans/5.3.19/spring-beans-5.3.19-sources.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.java</url>
+          <line>618</line>
+          <option name="timeStamp" value="1591" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.NullPointerException" package="java.lang" />
@@ -1374,12 +1370,15 @@
         <PinnedItemInfo parentTag="java.lang.Class" memberName="annotationData" />
         <PinnedItemInfo parentTag="org.springframework.aop.framework.JdkDynamicAopProxy" memberName="advised" />
         <PinnedItemInfo parentTag="java.util.ArrayList$Itr" memberName="lastRet" />
+        <PinnedItemInfo parentTag="com.dev.wizard.bean.BeanE$$EnhancerBySpringCGLIB$$2e9b62f" memberName="CGLIB$CALLBACK_0" />
+        <PinnedItemInfo parentTag="java.lang.reflect.Constructor" memberName="root" />
         <PinnedItemInfo parentTag="org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation" memberName="method" />
         <PinnedItemInfo parentTag="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor" memberName="logger" />
         <PinnedItemInfo parentTag="org.springframework.aop.aspectj.annotation.AnnotationAwareAspectJAutoProxyCreator$BeanFactoryAspectJAdvisorsBuilderAdapter" memberName="aspectBeanNames" />
         <PinnedItemInfo parentTag="javax.sound.midi.Sequence" memberName="tracks" />
         <PinnedItemInfo parentTag="java.util.HashMap" memberName="entrySet" />
         <PinnedItemInfo parentTag="com.dev.wizard.proxy.spring.ProxyFactoryDemo$Target$$EnhancerBySpringCGLIB$$a06699fc" memberName="CGLIB$BOUND" />
+        <PinnedItemInfo parentTag="java.lang.reflect.Constructor" memberName="parameterTypes" />
         <PinnedItemInfo parentTag="org.springframework.beans.factory.annotation.InjectionMetadata" memberName="injectedElements" />
       </pinned-members>
     </pin-to-top-manager>
@@ -1388,6 +1387,8 @@
         <watch expression="value" />
         <watch expression="value" />
         <watch expression="targetClass" />
+        <watch expression="this" />
+        <watch expression="this" />
       </configuration>
     </watches-manager>
   </component>

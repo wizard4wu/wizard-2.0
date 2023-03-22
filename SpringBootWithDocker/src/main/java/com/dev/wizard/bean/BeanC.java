@@ -12,7 +12,7 @@ import java.lang.reflect.Modifier;
 @Service
 @Slf4j
 @Order(5)
-public class BeanC {
+public class BeanC implements MyInterface{
     @Autowired
     private BeanB beanB;
 
@@ -26,5 +26,10 @@ public class BeanC {
 
     public void firstTargetMethod(){
         log.info("BeaC + firstTargetMethod");
+    }
+
+    @Override
+    public void myInterfaceMethod() {
+        log.info("BeanC + myInterfaceMethod");
     }
 }

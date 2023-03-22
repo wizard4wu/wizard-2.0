@@ -17,7 +17,6 @@ public class LambdaDemo {
         int number = 33;
         //1.类型推断
         test(new MyFirstFunction() {
-
             @Override
             public void execute(String value) {
                 int number = 44;

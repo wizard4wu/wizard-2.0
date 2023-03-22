@@ -2,13 +2,17 @@ package com.dev.wizard.lambda;
 
 public class LambdaTest {
 
+    public void test(){
+        System.out.println("LambdaTest");
+    }
+
     public static void main(String[] args) throws Exception {
-        print(new Switch() {
-            @Override
-            public String switchLowerCase(String str) {
-                return str.toLowerCase();
-            }
-        });
+        LambdaTest lambdaTest = new LambdaTest();
+        Switch switcher = str -> {
+            lambdaTest.test();
+            return str.toLowerCase();
+        };
+        print(switcher);
     }
 
     public static void print(Switch switcher) {

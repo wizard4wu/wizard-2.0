@@ -6,6 +6,7 @@ import com.dev.wizard.springboot.event.listen.CommonSpringEventType;
 import com.dev.wizard.springboot.event.listen.MyAsyncInterface;
 import com.dev.wizard.springboot.event.listen.MyFinalClass;
 import com.google.common.eventbus.Subscribe;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.stereotype.Controller;
@@ -15,6 +16,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 @RequestMapping("/springboot")
+@Slf4j
 public class SpringBootController {
 
     @Autowired
@@ -26,6 +28,7 @@ public class SpringBootController {
 
     @GetMapping("/event/test")
     public void eventTest() throws InterruptedException {
+        log.info("eventTest controller");
         CurrentUser currentUser = new CurrentUser(this, "Tom", 34);
         applicationEventPublisher.publishEvent(currentUser);
 
@@ -42,8 +45,7 @@ public class SpringBootController {
 
         //myFinalClass.finalClassMethod();
 
-        Thread.sleep(3000);
-        System.out.println("event publish finish");
+
     }
 
 }

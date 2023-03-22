@@ -11,6 +11,7 @@ class AsyncWithoutInterface implements MyAsyncInterface {
     @Async
     public void asyncMethod(){
         log.info("AsyncWithoutInterface + asyncMethod");
+        throw new RuntimeException();
     }
 }
 

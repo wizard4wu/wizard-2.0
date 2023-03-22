@@ -13,8 +13,7 @@ public class ProxyBeanA {
     @Autowired
     private ProxyBeanB proxyBeanB;
 
-    @Autowired
-    private BeanD beanD;
+
 
     public ProxyBeanA(){
         log.info("ProxyBeanA + constructor");
