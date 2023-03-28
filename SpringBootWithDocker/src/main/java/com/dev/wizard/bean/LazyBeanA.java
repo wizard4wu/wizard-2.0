@@ -29,6 +29,10 @@ public class LazyBeanA {
         log.info("LazyBeanA + testMethod");
     }
 
+    public void firstTargetMethod(){
+        log.info("LazyBeanA + firstTargetMethod");
+    }
+
     public static void main(String[] args) throws Exception{
 
         //Lazy注解底层使用了该方式

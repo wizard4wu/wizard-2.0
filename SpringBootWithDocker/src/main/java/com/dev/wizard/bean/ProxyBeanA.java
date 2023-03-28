@@ -8,7 +8,7 @@ import javax.annotation.PostConstruct;
 
 @Service
 @Slf4j
-public class ProxyBeanA {
+public class ProxyBeanA implements MyInterface{
 
     @Autowired
     private ProxyBeanB proxyBeanB;
@@ -26,6 +26,11 @@ public class ProxyBeanA {
 
     public void firstTargetMethod(){
         log.info("ProxyBeanA + firstTargetMethod");
+    }
+
+    @Override
+    public void myInterfaceMethod() {
+
     }
 
     public void zeroTargetMethod(){

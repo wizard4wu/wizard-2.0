@@ -16,5 +16,6 @@ public class MyController {
     @RequestMapping("/lazyBeanA")
     public void testLazyBeanA(){
         lazyBeanA.testMethod();
+        lazyBeanA.firstTargetMethod();
     }
 }

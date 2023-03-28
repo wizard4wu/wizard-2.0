@@ -7,12 +7,14 @@ import com.dev.wizard.bean.LazyBeanA;
 import com.dev.wizard.bean.MyInterface;
 import com.dev.wizard.bean.ProxyBeanA;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.aop.framework.AopProxyUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.lang.reflect.Method;
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Future;
@@ -22,10 +24,10 @@ import java.util.concurrent.Future;
 public class BeanController {
 
     @Autowired
-    private ProxyBeanA proxyBeanA;
+    private MyInterface proxyBeanA;
 
-    @Autowired
-    private MyInterface beanC;
+//    @Autowired
+//    private MyInterface beanC;
 
     @Autowired
     private BeanF beanF;
@@ -41,14 +43,23 @@ public class BeanController {
     private LazyBeanA lazyBeanA;
 
     @RequestMapping("/test")
-    public void test() throws InterruptedException, ExecutionException {
-//        proxyBeanA.firstTargetMethod();
-//        proxyBeanA.zeroTargetMethod();
+    public void test() throws Exception {
+        Method method = proxyBeanA.getClass().getMethod("firstTargetMethod");
+
+        Method method1 = ProxyBeanA.class.getMethod("firstTargetMethod");
+        method1.invoke(proxyBeanA, null);
+
+        method.invoke(proxyBeanA, null);
+        Object object = AopProxyUtils.getSingletonTarget(proxyBeanA);
+        proxyBeanA.firstTargetMethod();
+       // proxyBeanA.zeroTargetMethod();
 //        beanC.firstTargetMethod();
       //  beanE.testInternalClassCall();
       //  beanF.testMethod();
         beanH.method();
         lazyBeanA.testMethod();
+
+
 //        Future<String> result = beanF.asyncMethod();
 //        log.info("test .....");
 //        String value = result.get();
