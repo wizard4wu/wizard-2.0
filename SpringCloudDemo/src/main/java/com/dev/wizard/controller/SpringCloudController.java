@@ -1,6 +1,8 @@
 package com.dev.wizard.controller;
 
+import com.dev.wizard.domain.UserPo;
 import com.dev.wizard.feign.OrderInterface;
+import com.dev.wizard.mapper.UserMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

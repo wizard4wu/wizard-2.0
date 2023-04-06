@@ -30,7 +30,7 @@ public class MyAspect {
         log.info("MyAspect + afirstAspect");
     }
 
-    @After("execution(* firstTargetMethod())")
+    @After("execution(* firstTargetMethod(*, *))")
     public void secondAspect(){
         log.info("MyAspect + secondAspect");
     }

@@ -17,4 +17,13 @@ public class ProxyBeanB {
     public void firstTargetMethod(){
         log.info("ProxyBeanB + firstTargetMethod");
     }
+
+    public String firstTargetMethod(String value, int number){
+        log.info("ProxyBeanB + firstTargetMethod");
+        return value + number;
+    }
+    public String firstTargetMethod(String value){
+        log.info("ProxyBeanB + firstTargetMethod");
+        return value;
+    }
 }

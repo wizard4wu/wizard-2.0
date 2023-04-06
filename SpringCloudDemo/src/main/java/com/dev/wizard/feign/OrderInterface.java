@@ -1,7 +1,6 @@
 package com.dev.wizard.feign;
 
-import com.dev.wizard.domain.OrderDTO;
-import lombok.extern.slf4j.Slf4j;
+import com.dev.wizard.domain.dto.OrderDTO;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.GetMapping;
