@@ -1,5 +1,6 @@
 package com.dev.wizard.concurrent;
 
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 
 import java.util.List;
@@ -10,6 +11,7 @@ import java.util.concurrent.TimeoutException;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
+@Slf4j
 public class CompletableFutureDemo {
 
 
@@ -35,5 +37,8 @@ public class CompletableFutureDemo {
             return null;
         }).collect(Collectors.toList());
         result.forEach(System.out::println);
+
+
+
     }
 }

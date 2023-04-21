@@ -2,6 +2,7 @@ package com.dev.wizard.controller;
 
 import com.dev.wizard.domain.vo.UserVo;
 import com.dev.wizard.service.UserService;
+import com.dev.wizard.service.impl.UserServiceImpl;
 import com.dev.wizard.util.MyFactoryBean;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -13,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/user")
 public class UserController {
     @Autowired
-    private UserService userService;
+    private UserServiceImpl userService;
 
     @Autowired
     private MyFactoryBean myFactoryBean;

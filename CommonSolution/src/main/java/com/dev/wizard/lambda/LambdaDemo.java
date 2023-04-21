@@ -1,37 +1,32 @@
 package com.dev.wizard.lambda;
 
 
+
+import javax.naming.Reference;
+import java.util.concurrent.atomic.AtomicReference;
+import java.util.function.Function;
+import java.util.function.Supplier;
+
 public class LambdaDemo {
-
-
-    public static void test(MyFirstFunction function){
-        function.execute("MyFirstFunction");
-    }
-
-    public static void test(MySecondFunction function){
-        function.execute("MySecondFunction");
-    }
 
     public static void main(String[] args) {
 
-        int number = 33;
-        //1.类型推断
-        test(new MyFirstFunction() {
-            @Override
-            public void execute(String value) {
-                int number = 44;
-                System.out.println("value + " + value);
-                System.out.println(number);
-            }
-        });
-
-        test((MySecondFunction) value -> {
-            int numbers = 66;
-            System.out.println("value + " + value);
-            System.out.println(number);
-        });
-
-        //super和this的含义
 
     }
+   public static String method(String name, int number){
+
+        String tempName = name;
+        if(3 == number){
+            tempName = "zhouyu";
+        }
+
+       Function<String, String> function = value ->{
+
+            if(value.contains("zh")){
+                value = tempName;
+            }
+            return value;
+       };
+     return null;
+   }
 }

@@ -22,7 +22,7 @@ public class UserServiceImpl implements UserService {
     @Transactional(rollbackFor = Exception.class)
     public void addUser(User user){
         userMapper.insertUser(user.toPo());
-        int a = 3/0;
+     //   int a = 3/0;
     }
 
 }
