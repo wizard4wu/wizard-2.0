@@ -1,8 +1,13 @@
 package com.dev.wizard.collection;
 
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+import lombok.ToString;
+
 import java.util.HashMap;
 import java.util.Map;
 
+@Data
 public class HashMapThreadSecurity {
     public static void main(String[] args) throws InterruptedException {
         Map<String, String> map = new HashMap(8);

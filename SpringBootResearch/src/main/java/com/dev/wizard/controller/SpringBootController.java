@@ -15,6 +15,8 @@ import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import java.net.http.HttpRequest;
+
 @Controller
 @RequestMapping("/springboot")
 @Slf4j
@@ -45,6 +47,13 @@ public class SpringBootController {
         asyncWithoutInterface.asyncMethod();
 
         //myFinalClass.finalClassMethod();
+
+
+    }
+
+
+    @GetMapping("/request")
+    public void testRequest(HttpRequest request){
 
 
     }

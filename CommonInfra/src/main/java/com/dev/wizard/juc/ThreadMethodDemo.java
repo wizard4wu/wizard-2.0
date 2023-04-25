@@ -2,6 +2,7 @@ package com.dev.wizard.juc;
 
 import lombok.extern.slf4j.Slf4j;
 
+import java.util.LinkedList;
 import java.util.concurrent.TimeUnit;
 
 @Slf4j
@@ -9,6 +10,8 @@ public class ThreadMethodDemo {
 
     public static void main(String[] args) throws InterruptedException {
 
+        LinkedList<String> list = new LinkedList<>();
+        list.add(3,"dd");
         testSleep();
     }
     //线程sleep后可以通过打断的方式来唤醒未到时间的线程
