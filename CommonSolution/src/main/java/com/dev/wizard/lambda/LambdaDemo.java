@@ -20,10 +20,11 @@ public class LambdaDemo {
             tempName = "zhouyu";
         }
 
+       String finalTempName = tempName;
        Function<String, String> function = value ->{
 
             if(value.contains("zh")){
-                value = tempName;
+                value = finalTempName;
             }
             return value;
        };

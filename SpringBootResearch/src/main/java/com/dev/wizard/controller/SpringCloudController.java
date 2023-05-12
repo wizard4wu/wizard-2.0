@@ -10,10 +10,11 @@ import javax.servlet.ServletRequest;
 @RestController
 public class SpringCloudController {
     @GetMapping("order/byId")
-    public void byId(@RequestParam("id") String id, @RequestHeader("null_header") String nullHeader, @RequestHeader("order_key") String orderKey, ServletRequest request){
+    public void byId(@RequestParam("id") String id, @RequestHeader("null_header") String nullHeader, @RequestHeader("order_key") String orderKey, ServletRequest request) throws Exception {
         String result = (String)request.getAttribute("order_key");
         System.out.println(result);
-        System.out.println("order_key:" + orderKey);
-        System.out.println("null_header:" + nullHeader);
+       // throw new Exception();
+//        System.out.println("order_key:" + orderKey);
+//        System.out.println("null_header:" + nullHeader);
     }
 }

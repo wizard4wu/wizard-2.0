@@ -35,7 +35,6 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public void getUserById(String id, HttpServletRequest request) {
-        Collections.synchronizedMap()
         try {
             Thread.sleep(2000);
         } catch (InterruptedException e) {
