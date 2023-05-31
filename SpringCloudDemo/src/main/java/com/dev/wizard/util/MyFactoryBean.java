@@ -5,7 +5,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 @Component
-public class MyFactoryBean implements FactoryBean<MyFactoryBean.MyFactoryBeanObject> {
+public class MyFactoryBean implements FactoryBean{
     @Override
     public MyFactoryBean.MyFactoryBeanObject getObject() throws Exception {
         MyFactoryBean.MyFactoryBeanObject object = new MyFactoryBeanObject();
@@ -15,11 +15,14 @@ public class MyFactoryBean implements FactoryBean<MyFactoryBean.MyFactoryBeanObj
 
     @Override
     public Class<?> getObjectType() {
-        return null;
+        return MyFactoryBeanObject.class;
     }
 
-    @Service
+
     public static class MyFactoryBeanObject{
+        public MyFactoryBeanObject(){
+            System.out.println("ddd");
+        }
         private int number;
     }
 }

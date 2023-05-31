@@ -12,7 +12,15 @@ spring.redis:
     max-idle: 8
     # min idle connection number, default is 0
     min-idle: 0
-
+  cluster.nodes:
+    - 10.100.113.38:7000
+    - 10.100.113.38:7001
+    - 10.100.113.38:7002
+    - 10.100.113.38:7003
+    - 10.100.113.38:7004
+    - 10.100.113.38:7005
+    - 10.100.113.38:7006
+    - 10.100.113.38:7007
 
 #config more clusters
 spring.redis-wizard:

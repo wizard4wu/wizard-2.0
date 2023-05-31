@@ -13,6 +13,7 @@ import org.springframework.http.HttpRequest;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.http.HttpServletRequest;
@@ -20,6 +21,8 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.List;
 
 @RestController
 @RequestMapping("/redis")
@@ -38,8 +41,6 @@ public class RedisController {
 
     @RequestMapping(value = "/hello", method = RequestMethod.GET)
     public Student testRedis() throws JsonProcessingException {
-
-
         Student stu = new Student();
         stu.setAge(21);
         stu.setName("张三");
@@ -52,37 +53,19 @@ public class RedisController {
         //String value = redisDemo.get("key");
         return student;
     }
-
-    @PostMapping("/test")
-    public void testIn(HttpServletRequest request){
-        StringBuilder stringBuilder = new StringBuilder();
-        BufferedReader bufferedReader = null;
-        try {
-            InputStream inputStream = request.getInputStream();
-
-            if (inputStream != null) {
-                bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
-
-                char[] charBuffer = new char[128];
-                int bytesRead = -1;
-
-                while ((bytesRead = bufferedReader.read(charBuffer)) > 0) {
-                    stringBuilder.append(charBuffer, 0, bytesRead);
-                }
-            } else {
-                stringBuilder.append("");
-            }
-        } catch (IOException ex) {
-            log.error("Error reading the request body...");
-        } finally {
-            if (bufferedReader != null) {
-                try {
-                    bufferedReader.close();
-                } catch (IOException ex) {
-                    log.error("Error closing bufferedReader...");
-                }
-            }
+    @RequestMapping("/setString")
+    public void setString(){
+        for(int index = 0; index < 1000; index ++)
+        redisTemplate.opsForValue().set("key " + index, "value" + index);
+    }
+    @RequestMapping("/getString")
+    @ResponseBody
+    public List<String> getString(){
+        List<String> list = new ArrayList(1000);
+        for(int index = 0; index < 1000; index ++){
+            String str = redisTemplate.opsForValue().get("key " + index);
+            list.add(str);
         }
-        String body = stringBuilder.toString();
+       return list;
     }
 }
