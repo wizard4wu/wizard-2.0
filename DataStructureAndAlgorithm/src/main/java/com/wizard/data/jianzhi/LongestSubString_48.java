@@ -1,16 +1,41 @@
 package com.wizard.data.jianzhi;
 
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Map;
+import java.util.Set;
 
 public class LongestSubString_48 {
 
     public static void main(String[] args) {
 
 
-        System.out.println(lengthOfLongestSubstring("au"));
+        System.out.println(lengthOfLongestSubstring2("abcabcbb"));
 
     }
+
+    public static int lengthOfLongestSubstring2(String s){
+
+        int rightIndex = 0;
+        Set<Character> pureSet = new HashSet<>();
+        int leftIndex = 0;
+        int maxLenght = 0;
+        while(rightIndex < s.length()){
+            char charValue = s.charAt(rightIndex);
+
+            while(pureSet.contains(charValue)){
+                pureSet.remove(s.charAt(leftIndex ++)); //从头往后删除 直到不包含重复位置；
+            }
+            rightIndex ++;
+            pureSet.add(charValue);
+            if(pureSet.size() > maxLenght){
+                maxLenght = pureSet.size();
+            }
+        }
+        return maxLenght;
+    }
+
+
 
     public static int lengthOfLongestSubstring(String s) {
 

@@ -83,7 +83,23 @@ public class SortClass {
         int[] result = mergeSort(testData, 0, testData.length);
 
         Arrays.stream(result).forEach(value -> System.out.print(value + " "));
+    }
 
+    public void mergeArray(int[] first, int[] second){
+        int[] resultArray = new int[first.length + second.length];
 
+        int firstIndex = 0;
+        int secondIndex = 0;
+        int resultIndex = 0;
+        while(first.length > firstIndex && second.length > secondIndex){
+            if(first[firstIndex] > second[secondIndex]){
+                resultArray[resultIndex] = second[secondIndex];
+                secondIndex ++;
+            }else {
+                resultArray[resultIndex] = second[firstIndex];
+                firstIndex ++;
+            }
+            resultIndex++;
+        }
     }
 }

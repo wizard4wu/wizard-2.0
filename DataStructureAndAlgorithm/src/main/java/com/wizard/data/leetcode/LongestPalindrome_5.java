@@ -10,8 +10,42 @@ public class LongestPalindrome_5 {
 
     public static void main(String[] args) {
 
-        System.out.println(longestPalindrome("abc435cba"));
+        System.out.println(longestPalindrome2("babad"));
     }
+
+    public static String longestPalindrome2(String s){
+        int maxLength = 0;
+        int maxStartIndex = 0;
+        for(int index = 0; index < s.length(); index ++){
+            int left = index;
+            int right = index;
+            int length = 0;
+            //往左直接相同
+            while(left - 1 >= 0 && s.charAt(left - 1) == s.charAt(index)){
+                left --;
+                length ++;
+            }
+            //往右直接相同；
+            while(right + 1 < s.length() && s.charAt(right + 1) == s.charAt(index)){
+                right ++;
+                length ++;
+            }
+            //两边同时扩展相同
+            while (left - 1 >= 0 && right + 1 < s.length() && s.charAt(right + 1) == s.charAt( left - 1)){
+                //由于是两边扩展 所以长度加2；
+                length = length + 2;
+                right ++;
+                left --;
+            }
+
+            if(maxLength < length){
+                maxLength = length;
+                maxStartIndex = left;
+            }
+        }
+        return s.substring(maxStartIndex, maxStartIndex + maxLength + 1);
+    }
+
 
     public static String longestPalindrome(String s) {
         if(1 == s.length()) return s;

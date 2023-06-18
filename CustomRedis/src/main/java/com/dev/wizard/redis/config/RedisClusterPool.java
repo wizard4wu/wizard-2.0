@@ -4,9 +4,8 @@ import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Configuration;
 
-@Configuration
 @Data
-@ConfigurationProperties(prefix = "spring.redis-avengers.pool")
+@ConfigurationProperties(prefix = "spring.redis.pool")
 public class RedisClusterPool {
     private int maxActive;
     private int maxWait;

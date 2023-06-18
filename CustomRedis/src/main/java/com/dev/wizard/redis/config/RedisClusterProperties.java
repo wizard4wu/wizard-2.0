@@ -6,9 +6,8 @@ import org.springframework.context.annotation.Configuration;
 
 import java.util.List;
 
-@Configuration
 @Data
-@ConfigurationProperties(prefix = "spring.redis-avengers.cluster")
+@ConfigurationProperties(prefix = "spring.redis.cluster")
 public class RedisClusterProperties {
     List<String> nodes;
 }
