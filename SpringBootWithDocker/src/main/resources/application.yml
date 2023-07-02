@@ -8,9 +8,8 @@ spring:
 
 # spring default config
 spring.redis:
-  host: <your-ipv4>
-  password: redispw
-  port: 49153
+  host: localhost
+  port: 6379
   timeout: 5000
   lettuce.pool:
     # max connection number in connection poll, default number is 8
