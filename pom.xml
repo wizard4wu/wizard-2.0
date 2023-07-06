@@ -19,6 +19,7 @@
         <module>SpringBootWithDocker</module>
         <module>SpringCloudDemo</module>
         <module>CommonInfra</module>
+        <module>SpringCloudEurekaServer</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -45,6 +46,10 @@
                 <groupId>org.hibernate</groupId>
                 <artifactId>hibernate-validator</artifactId>
                 <version>5.3.6.Final</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-starter-eureka-server</artifactId>
             </dependency>
             <dependency>
                 <groupId>com.auth0</groupId>
