@@ -6,3 +6,10 @@ spring:
     password: wizard
   aop:
     proxy-target-class: true
+
+feign:
+  client:
+    config:
+      default:  #全局配置
+        loggerLevel: FULL
+

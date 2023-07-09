@@ -27,7 +27,6 @@ public class SpringCloudController {
     private MyFactoryBean.MyFactoryBeanObject myFactoryBeanObject;
     @GetMapping("/feign")
     public void testFeign(){
-
         orderInterface.getOrderById("orderId", "null", "encodeOrderKey");
         log.info("test Feign result");
     }

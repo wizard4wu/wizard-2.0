@@ -1,0 +1,31 @@
+server:
+  port: 9090
+spring:
+  application:
+    name: ServiceCaller
+logging:
+  level:
+    com:
+      dev: debug #com.dev为包路径
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
+feign:
+  client:
+    config:
+      default:  #全局配置
+        loggerLevel: FULL
+        connectTimeout: 1000 # 连接时间
+        readTimeout: 1000 # 读取超时时间 两者同时配置才可以生效
+        #retryer: com.dev.wizard.config.RetryerConfig
+  okhttp:
+    enabled: true
+  httpclient:
+    enable: true
+
