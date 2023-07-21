@@ -3,6 +3,7 @@ package com.dev.wizard.redis.config;
 
 import com.dev.wizard.redis.demo.MyRedisCacheClass;
 import org.apache.commons.pool2.impl.GenericObjectPoolConfig;
+import org.redisson.Redisson;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.autoconfigure.data.redis.RedisProperties;
 import org.springframework.boot.context.properties.ConfigurationProperties;
@@ -68,6 +69,10 @@ public class MyRedisConfig extends CachingConfigurerSupport {
     @Bean
     public MyRedisCacheClass myRedisCacheClass(StringRedisTemplate redisTemplate){
       return new MyRedisCacheClass(redisTemplate, REDIS_PREFIX);
+    }
+    @Bean
+    public Redisson redis(){
+        return null;
     }
 
 

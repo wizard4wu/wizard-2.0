@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-@FeignClient(value = "order", url = "http://127.0.0.1:81", configuration = MyEurekaClientConfig.class,fallbackFactory = OrderClientFallBackFactory.class)
+@FeignClient(value = "order", url = "http://127.0.0.1:81", configuration = MyEurekaClientConfig.class, fallbackFactory = OrderClientFallBackFactory.class)
 public interface OrderFeignClient {
     @GetMapping("/order/byId")
     OrderDTO getOrderById(@RequestParam("orderId") String id);
@@ -31,7 +31,7 @@ class OrderClientFallBackFactory implements FallbackFactory<OrderFeignClient> {
         }
         @Override
         public OrderDTO getOrderById(String id) {
-            log.error("getOrderId", cause);
+            log.error("exception getOrderId, ", cause);
             return null;
         }
     }

@@ -4,6 +4,8 @@ import feign.RetryableException;
 import feign.Retryer;
 import org.springframework.context.annotation.Configuration;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 @Configuration

@@ -1,6 +1,17 @@
+spring:
+  application:
+    name: EurekaServer1
 server:
   port: 8761
 eureka:
+  # Eureka实例配置
+  instance:
+    # 配置通过主机名方式注册
+    hostname: localhost
   client:
-    registerWithEureka: false
-    fetchRegistry: false
+    fetch-registry: false #指定是否要从注册中心获取服务（注册中心不需要开启）
+    register-with-eureka: false #指定是否要注册到注册中心（注册中心不需要开启）
+  server:
+    enable-self-preservation: false #关闭保护模式
+
+

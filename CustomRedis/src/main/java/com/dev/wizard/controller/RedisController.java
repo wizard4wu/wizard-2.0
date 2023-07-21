@@ -1,4 +1,4 @@
-package com.dev.wizard.redis;
+package com.dev.wizard.controller;
 
 
 import com.dev.wizard.redis.cache.AutoCache;

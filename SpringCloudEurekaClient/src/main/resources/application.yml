@@ -1,22 +1,17 @@
 server:
   port: 9090
-spring:
-  application:
-    name: ServiceCaller
 logging:
   level:
     com:
       dev: debug #com.dev为包路径
 
 eureka:
-  instance:
-    hostname: localhost
   client:
-    register-with-eureka: false
-    fetch-registry: false
-    serviceUrl:
-      defaultZone: http://localhost:8761/eureka
+    register-with-eureka: true #注册到Eureka的注册中心
+    fetch-registry: true #获取注册实例列表
 feign:
+  hystrix:
+    enabled: true
   client:
     config:
       default:  #全局配置
