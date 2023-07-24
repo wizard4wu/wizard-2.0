@@ -25,7 +25,7 @@ import redis.clients.jedis.JedisPoolConfig;
 import java.util.Set;
 
 
-@Configuration
+
 //@ConfigurationProperties(prefix = "spring.redis.cluster")
 @EnableCaching
 public class MyRedisConfig extends CachingConfigurerSupport {
@@ -47,20 +47,6 @@ public class MyRedisConfig extends CachingConfigurerSupport {
 
     public static final String REDIS_PREFIX = "my";
 
-    @Bean(name = "redisTemplate")
-    public StringRedisTemplate redisTemplate(RedisConnectionFactory redisConnectionFactory){
-
-        StringRedisTemplate stringRedisTemplate = new StringRedisTemplate();
-        stringRedisTemplate.setConnectionFactory(redisConnectionFactory);
-//        RedisTemplate<String, Object> redisTemplate = new RedisTemplate<>();
-//        //参照StringRedisTemplate内部实现指定序列化器
-//        redisTemplate.setConnectionFactory(redisConnectionFactory);
-//        redisTemplate.setKeySerializer(keySerializer());
-//        redisTemplate.setHashKeySerializer(keySerializer());
-//        redisTemplate.setValueSerializer(valueSerializer());
-//        redisTemplate.setHashValueSerializer(valueSerializer());
-        return stringRedisTemplate;
-    }
     @Bean(name="customRedisTemplate")
     public StringRedisTemplate customRedisTemplate(RedisConnectionFactory redisConnectionFactory) {
         StringRedisTemplate stringRedisTemplate = new StringRedisTemplate(redisConnectionFactory);
