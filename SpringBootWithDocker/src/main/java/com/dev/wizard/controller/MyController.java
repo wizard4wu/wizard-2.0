@@ -3,6 +3,7 @@ package com.dev.wizard.controller;
 import com.dev.wizard.bean.LazyBeanA;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Lazy;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -13,7 +14,7 @@ public class MyController {
     @Lazy
     private LazyBeanA lazyBeanA;
 
-    @RequestMapping("/lazyBeanA")
+    @GetMapping("/lazyBeanA")
     public void testLazyBeanA(){
         lazyBeanA.testMethod();
         lazyBeanA.firstTargetMethod();

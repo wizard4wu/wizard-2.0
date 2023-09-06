@@ -1,0 +1,28 @@
+spring:
+  kafka:
+    bootstrap-servers: 10.100.113.38:9092
+    producer: #生产者
+      retries: 3
+      properties:
+        partitioner:
+          class: com.wizard.kafka.partition.MyPartitioner        #配置自定义分区
+        interceptor:
+          classes: com.wizard.kafka.interceptor.MyInterceptors   #配置自定义拦截器
+      batch-size: 16384
+      buffer-memory: 33554432
+      ack: 1
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+    consumer:
+      group-id: "myGroup"
+      enable-auto-commit: false
+      auto-offset-reset: latest
+
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+      max-poll-records: 500
+    listener:
+      ack-mode: manual
+      sync-commits: false
+      #manual_immediate和manual的区别：前者是一条消息处理完就会提交 后者是处理一批消息后才会提交
+      #kafka通常使用一批一批(500条)的数据进行消费

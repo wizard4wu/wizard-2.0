@@ -7,8 +7,8 @@ import java.util.Stack;
 public class QuickSort {
 
     public static void main(String[] args) {
-//        int[] array = {1,4,9,4,2,1,0};
-//        quickSort(array, 0, array.length - 1);
+        int[] array = {5, 2, 3, 1};
+        iteratorQuickSort(array);
 //        System.out.println(array.toString());
         Queue<String> queue = new ArrayDeque();
         queue.add("eee");
@@ -18,6 +18,29 @@ public class QuickSort {
         System.out.println();
     }
 
+    public static void iteratorQuickSort(int[] array){
+
+        Stack<Integer> stack = new Stack<>();
+        stack.push(0);
+        stack.push(array.length - 1);
+
+        while(!stack.isEmpty()){
+            int right = stack.pop();
+            int left = stack.pop();
+            if (right - left < 2) {
+                continue;
+                            }
+            int index = partition(array, left, right);
+            stack.push(index + 1);
+            stack.push(right);
+            stack.push(left);
+            stack.push(index);
+        }
+    }
+
+
+
+    //recursion
     private static void quickSort(int[] array, int leftIndex, int rightIndex) {
 
         //防止出现死递归
@@ -51,11 +74,10 @@ public class QuickSort {
             }
             if (currentLeftIndex < currentRightIndex){
                 array[currentRightIndex] = array[currentLeftIndex];
-                currentRightIndex --;
             }
         }
         //找到pivot的合适位置进行替换
-        array[currentRightIndex] = pivot;
+        array[currentLeftIndex] = pivot;
         return currentLeftIndex;
     }
 }
