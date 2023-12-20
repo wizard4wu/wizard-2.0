@@ -1,7 +1,9 @@
 package com.dev.wizard.singleton;
 
 public class SingletonSecondDemo {
-
+    static {
+        System.out.println("SingletonSecondDemo 静态代码块");
+    }
     private SingletonSecondDemo(){
         if(null != INSTANCE){
             throw new RuntimeException("Can not create singleton instance by reflection");

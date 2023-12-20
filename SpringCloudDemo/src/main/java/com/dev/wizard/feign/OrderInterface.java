@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestParam;
 
 
-@FeignClient(value = "ORDER", fallbackFactory = OrderClientFallBackFactory.class)
+@FeignClient(url= "localhost:80",value = "ORDER", fallbackFactory = OrderClientFallBackFactory.class)
 public interface OrderInterface {
     @GetMapping("/order/byId")
     OrderDTO getOrderById(@RequestParam("id") String id, @RequestHeader("null_header") String nullableHeader, @RequestHeader(value = "order_key", required = false) String orderKey);
