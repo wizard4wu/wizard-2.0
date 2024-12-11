@@ -12,12 +12,12 @@ import org.springframework.web.bind.annotation.RestController;
 @Slf4j
 public class OrderController {
 
-    @GetMapping("/byId")
+    @GetMapping({"/byId", "/**"})
     public OrderDTO getById(@RequestParam("orderId") String orderId) throws InterruptedException {
         log.info("orderId: {}", orderId);
         OrderDTO orderDTO = new OrderDTO();
         orderDTO.setId(orderId);
-        Thread.sleep(3000l);
+        //Thread.sleep(3000l);
         return orderDTO;
     }
 }

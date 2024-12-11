@@ -48,6 +48,8 @@ public class CustomClassLoadDemo extends ClassLoader{
         CustomClassLoadDemo classLoadDemo = new CustomClassLoadDemo();
         Class clazz = Class.forName("People", true, classLoadDemo);
         Object ojb = clazz.newInstance();
+        Person person = new Person("test", 3);
+        person.age();
 
     }
 }

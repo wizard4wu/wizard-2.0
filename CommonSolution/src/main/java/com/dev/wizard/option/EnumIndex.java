@@ -2,7 +2,7 @@ package com.dev.wizard.option;
 
 
 
-public interface EnumIndex<E> {
+public interface EnumIndex {
 
     int getBitIndex();
 

@@ -52,10 +52,11 @@ public class SpringBootController {
     }
 
 
-    @GetMapping("/request")
+    @GetMapping("/request/")
     public void testRequest(HttpRequest request){
 
 
+        System.out.println("hello");
     }
 
 }

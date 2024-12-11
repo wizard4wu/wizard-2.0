@@ -7,7 +7,7 @@ import java.util.Arrays;
 import java.util.EnumSet;
 import java.util.Iterator;
 
-public class EnumUtil<E> {
+public class EnumUtil {
 
     public static  <E extends Enum<E> & EnumIndex> int toValue(EnumSet<E> enumSet){
         int value = 0;
