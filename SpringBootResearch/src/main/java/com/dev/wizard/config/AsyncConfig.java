@@ -7,10 +7,11 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.scheduling.annotation.AsyncConfigurer;
 import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 
+import javax.annotation.PostConstruct;
 import java.lang.reflect.Method;
 import java.util.concurrent.Executor;
 
-@Configuration
+
 @Slf4j
 public class AsyncConfig implements AsyncConfigurer {
     @Bean
@@ -22,6 +23,10 @@ public class AsyncConfig implements AsyncConfigurer {
         executor.setQueueCapacity(10);
         executor.setThreadNamePrefix("async-");
         return executor;
+    }
+    @PostConstruct
+    public void init() {
+        throw new ToggleException();
     }
     @Override
     public Executor getAsyncExecutor() {
