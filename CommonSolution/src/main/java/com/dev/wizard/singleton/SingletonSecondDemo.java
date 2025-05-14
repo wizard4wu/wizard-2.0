@@ -37,9 +37,10 @@ public class SingletonSecondDemo {
 
     //2.懒汉式 - 双检查锁模式
     public static SingletonSecondDemo getInstance_2(){
+        //外置检查 提升性能
         if(null == INSTANCE){
             synchronized (SingletonSecondDemo.class){
-                //如果没有内置检查 还是会存在创建新的对象的
+                //内置检查
                 if(null == INSTANCE){
                     INSTANCE = new SingletonSecondDemo();
                 }

@@ -21,4 +21,10 @@ public class NacosController {
 
         nacosConfigService.publishConfig("dataId", "group", "value");
     }
+
+    @GetMapping("/nacos/get")
+    public String get() throws NacosException {
+
+        return nacosConfigService.getConfig("dataId", "group", 5000);
+    }
 }

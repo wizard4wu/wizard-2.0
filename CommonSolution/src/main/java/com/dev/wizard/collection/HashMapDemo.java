@@ -4,9 +4,7 @@ import lombok.SneakyThrows;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
-import java.util.HashMap;
-import java.util.LinkedHashMap;
-import java.util.Map;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class HashMapDemo {
@@ -81,9 +79,15 @@ public class HashMapDemo {
     }
 
     public static void main(String[] args) throws NoSuchFieldException {
-        Map<String, String> map = initMapData();
-        Map<String, String> changedMap = changeHashCode(33, map);
-        System.out.println(changedMap);
+
+        testComputeIfAbsent();
+    }
+
+    public static void testComputeIfAbsent() {
+        Map<String, List<String>> map = new HashMap<>();
+        map.computeIfAbsent("1", key -> new ArrayList<>()).add("test");
+        map.computeIfAbsent("1", key -> new ArrayList<>()).add("test3");
+        System.out.println(map);
     }
 
 }
