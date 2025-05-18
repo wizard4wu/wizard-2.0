@@ -31,7 +31,7 @@ public class MaxSlidingWindow_239 {
         int[] resultArray = new int[nums.length - k + 1];
         for(int index = 0; index < nums.length; index++) {
             //1.如果队列的头部所在的index不在滑动窗口内，那么需要去掉
-            if(!deque.isEmpty() && deque.peekFirst() == index - k) {
+            if(!deque.isEmpty() && deque.peekFirst() <= index - k) {
                 deque.removeFirst();
             }
 
