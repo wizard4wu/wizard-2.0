@@ -1,56 +1,31 @@
 package com.wizard.data.leetcode;
 
-import java.util.concurrent.atomic.AtomicInteger;
-import java.util.concurrent.locks.Condition;
-import java.util.concurrent.locks.Lock;
-import java.util.concurrent.locks.ReentrantLock;
+import java.util.HashSet;
+import java.util.Set;
 
 public class Interview_2 {
-    /***
-     * 启动多个线程(比如5个)每个线程循环打印若干相同数量(比如3个)的数字,例如线程1打印1,2,3,
-     * 线程2打印4,5,6, 线程3打印7,8,9, 线程4打印10,11,12, 线程5打印13,14,15,
-     * 接着再由线程1打印16,17,18….以此类推, 直到打印到100.
-     ***/
-    private static AtomicInteger numberValue = new AtomicInteger(1);
-    int counter = 0;
-    private static final int THREAD_NUMBER = 5;
-    private volatile static int currentThreadId = 0;
-    private static int MAX_VALUE = 100;
-    private static final Lock lock = new ReentrantLock();
-    private static final Condition[] conditions = new Condition[THREAD_NUMBER];
     public static void main(String[] args) {
-        for(int index = 0; index < THREAD_NUMBER; index++){
-            conditions[index] = lock.newCondition();
-        }
-        for(int index = 0; index < THREAD_NUMBER; index++){
-            int threadId = index;
-            new Thread(() -> {
-                while(true) {
-                    lock.lock();
-                    try {
-                        while (threadId != currentThreadId && numberValue.get() <= MAX_VALUE) {
-                            try {
-                                conditions[threadId].await();
-                            } catch (InterruptedException e) {
-                                throw new RuntimeException(e);
-                            }
-                        }
-                        if (numberValue.get() > MAX_VALUE) {
-                            //通知其线程
-                            conditions[(threadId + 1) % THREAD_NUMBER].signal();
-                            break;
-                        }
-                        for(int j = 0; j < 3 && numberValue.get() <= MAX_VALUE; j++){
-                            System.out.println(threadId + ":" + numberValue.getAndIncrement());
-                        }
-                        //使用下一个线程
-                        currentThreadId = (currentThreadId + 1) % THREAD_NUMBER;
-                        conditions[currentThreadId].signal();
-                    } finally {
-                        lock.unlock();
-                    }
-                }
-            }).start();
-        }
+        System.out.println(maxNoDuplicateLength("abcdabcd"));
+        System.out.println(maxNoDuplicateLength("kwwkew"));
+
     }
+    //String 找出最长子串，输出长度，要求连续的，不能出现重复值
+    //abcdabcd 输出四
+    //kwwkew
+
+    private static int maxNoDuplicateLength(String valueString){
+        Set<Character> charSet = new HashSet<>();
+        int leftIndex = 0;
+        int maxLength = 0;
+        for(int rightIndex = 0; rightIndex < valueString.length(); rightIndex++){
+            while(charSet.contains(valueString.charAt(rightIndex))){
+                charSet.remove(valueString.charAt(leftIndex));
+                leftIndex ++;
+            }
+            charSet.add(valueString.charAt(rightIndex));
+            maxLength = Math.max(maxLength, rightIndex - leftIndex + 1);
+        }
+        return maxLength;
+    }
+
 }

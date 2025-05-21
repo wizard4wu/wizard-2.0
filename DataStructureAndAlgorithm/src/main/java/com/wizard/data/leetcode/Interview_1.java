@@ -12,7 +12,7 @@ package com.wizard.data.leetcode;
  *
  * 说明:你可以假设 k 总是有效的，且 1 ≤ k ≤ 数组的长度。
  */
-public class Interview_JD {
+public class Interview_1 {
 
     public static void main(String[] args) {
         int[] arr = {3,2,1,5,6,4};
