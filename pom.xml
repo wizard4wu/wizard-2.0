@@ -24,6 +24,7 @@
         <module>SpringCloudEurekaClient</module>
         <module>Kafka-Client</module>
         <module>NacosClient</module>
+        <module>MySpringAI</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
