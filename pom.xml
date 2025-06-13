@@ -19,11 +19,11 @@
         <module>SpringBootWithDocker</module>
         <module>SpringCloudDemo</module>
         <module>CommonInfra</module>
+        <module>MyLangChain4j</module>
         <module>SpringCloudEurekaServer</module>
         <module>SpringCloudEurekaClient</module>
         <module>Kafka-Client</module>
         <module>NacosClient</module>
-        <module>LangChain4j</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
