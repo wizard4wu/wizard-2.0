@@ -1,6 +1,6 @@
 package com.wizard.data.interview;
 
-public class ThreeColorsBall {
+public class ThreeColorBalls {
     public static void main(String[] args) {
         int[] array = {2, 0, 2, 1, 1, 0};
         threeColorSort(array);
