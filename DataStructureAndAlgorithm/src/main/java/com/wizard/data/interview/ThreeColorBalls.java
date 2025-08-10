@@ -1,8 +1,6 @@
-package com.wizard.data.leetcode;
+package com.wizard.data.interview;
 
-import java.util.*;
-
-public class Test {
+public class ThreeColorsBall {
     public static void main(String[] args) {
         int[] array = {2, 0, 2, 1, 1, 0};
         threeColorSort(array);
